@@ -9,6 +9,20 @@
  *    :......::::........::..::::..::........::..:::::..::..:::::..::........::
  */
 
+ body{
+   margin: 0;
+   padding: 0;
+ }
+
+ ul{
+   margin-block-start: 0;
+   margin-block-end: 0;
+   margin-inline-start: 0;
+   margin-inline-end: 0;
+   padding-inline-start: 0;
+   text-align: center;
+ }
+
 *{
   box-sizing: border-box;
   width: 100%;
@@ -66,10 +80,13 @@
  .mn-1{
    background-color: black;
    color: lightgray;
+   font-family:"ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+   font-size: 13px;
+   padding: 8px;
  }
- 
+
  .lft-mn-1{
-   width: 500px;
+   width: 400px;
  }
 
  .lft-mn-1 ul{
@@ -90,6 +107,20 @@
    float: right;
    width: 500px;
  }
+ .rght-mn-1{
+  width: 300px;
+}
+
+.rght-mn-1 ul{
+  display: table;
+}
+
+.rght-mn-1 li {
+  display: table-cell;
+  width: fit-content;
+  vertical-align: middle;
+}
+
 
  /***
  *    :'######:::'########:::'#######::'##::::'##:'########::::::::::::::'##:::
