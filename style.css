@@ -28,6 +28,25 @@
   width: 100%;
 }
 
+@media only screen and (min-width:0px) and (max-width: 768px){
+  [class*="col-"]{
+    float: left;
+  }
+ .col-xs-0 {display: none;}
+ .col-xs-1 {width: 8.33%;}
+ .col-xs-2 {width: 16.66%;}
+ .col-xs-3 {width: 25%;}
+ .col-xs-4 {width: 33.33%;}
+ .col-xs-5 {width: 41.66%;}
+ .col-xs-6 {width: 50%;}
+ .col-xs-7 {width: 58.33%;}
+ .col-xs-8 {width: 66.66%;}
+ .col-xs-9 {width: 75%;}
+ .col-xs-10 {width: 83.33%;}
+ .col-xs-11 {width: 91.66%;}
+ .col-xs-12 {width: 100%;}
+}
+
  @media only screen and (min-width:768px){
    [class*="col-"]{
      float: left;
@@ -48,7 +67,7 @@
  }
  
 
- @media only screen and (min-width:1200px){
+ @media only screen and (min-width:1024px){
   [class*="col-"]{
     float: left;
   }
@@ -66,6 +85,11 @@
  .col-11 {width: 91.66%;}
  .col-12 {width: 100%;}
 }
+
+.right-align{
+  text-align: right;
+}
+
 /*
  *    '##:::###::::'###::::'##::::'##::::::::::'##::::'##:'########:'##:::###:'##::::'##:::::::::::::'##:::
  *    ####::###:::'#####:::###::::###::::::::::####::'###:###.....::####::###:###::::###:::::::::::'####:::
@@ -83,6 +107,7 @@
    font-family:"ARS Maquette", "Helvetica Neue", Arial, sans-serif;
    font-size: 13px;
    padding: 8px;
+   height: 30px;
  }
 
  .lft-mn-1{
@@ -121,6 +146,12 @@
   vertical-align: middle;
 }
 
+.tnw-logo{
+  height: 70px;
+  background-color: red;
+  float: left;
+}
+
 
  /***
  *    :'######:::'########:::'#######::'##::::'##:'########::::::::::::::'##:::
@@ -132,3 +163,20 @@
  *    .#######:::###:::.###:.########::.########::###::::::::::::::::::'######:
  *    :......::::..:::::..:::.......::::.......:::..:::::::::::::::::::......::
  */
+
+ .mn-2{
+  background-color: white;
+  color: gray;
+  font-family:"ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-size: 13px;
+  padding: 0px;
+  height: 40px;
+ }
+
+ .mn-2 ul{
+   height: 40px;
+ }
+
+.mn-3{
+  background-color: rgb(255, 221, 51);;
+}
