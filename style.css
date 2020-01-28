@@ -234,6 +234,15 @@ body{
   background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/artificial-intelligence-hed-796x417.jpg');
   background-size: 100% auto;
   background-position-y: center;
+  background-color: red;
+  position: relative;
+}
+
+.article-1 span{
+  position: absolute;
+  bottom: 0;
+  color: white;
+  font-size: 60px;
 }
 
 .article-2{
