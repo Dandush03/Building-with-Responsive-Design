@@ -32,7 +32,7 @@
    [class*="col-"]{
      float: left;
    }
-  .col-0 {display: none;}
+  .col-s-0 {display: none;}
   .col-s-1 {width: 8.33%;}
   .col-s-2 {width: 16.66%;}
   .col-s-3 {width: 25%;}
