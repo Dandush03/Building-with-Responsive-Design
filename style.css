@@ -9,146 +9,279 @@
  *    :......::::........::..::::..::........::..:::::..::..:::::..::........::
  */
 
- body{
-   margin: 0;
-   padding: 0;
- }
+body {
+  margin: 0;
+  padding: 0;
+}
 
- section>h6{
-   display: none;
- }
+section>h6 {
+  display: none;
+}
 
- ul{
-   margin-block-start: 0;
-   margin-block-end: 0;
-   margin-inline-start: 0;
-   margin-inline-end: 0;
-   padding-inline-start: 0;
-   text-align: center;
- }
+ul {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 15px;
+  text-align: center;
+}
 
-*{
+* {
   box-sizing: border-box;
   width: 100%;
 }
 
-@media only screen and (min-width:0px) and (max-width: 768px){
-  [class*="col-"]{
+@media only screen and (min-width:0px) and (max-width: 768px) {
+  [class*="col-"] {
     float: left;
   }
- .col-xs-0 {display: none;}
- .col-xs-1 {width: 8.33%;}
- .col-xs-2 {width: 16.66%;}
- .col-xs-3 {width: 25%;}
- .col-xs-4 {width: 33.33%;}
- .col-xs-5 {width: 41.66%;}
- .col-xs-6 {width: 50%;}
- .col-xs-7 {width: 58.33%;}
- .col-xs-8 {width: 66.66%;}
- .col-xs-9 {width: 75%;}
- .col-xs-10 {width: 83.33%;}
- .col-xs-11 {width: 91.66%;}
- .col-xs-12 {width: 100%;}
 
- .row-xs-1{height: 15vh;}
+  .col-xs-0 {
+    display: none;
+  }
+
+  .col-xs-1 {
+    width: 8.33%;
+  }
+
+  .col-xs-2 {
+    width: 16.66%;
+  }
+
+  .col-xs-3 {
+    width: 25%;
+  }
+
+  .col-xs-4 {
+    width: 33.33%;
+  }
+
+  .col-xs-5 {
+    width: 41.66%;
+  }
+
+  .col-xs-6 {
+    width: 50%;
+  }
+
+  .col-xs-7 {
+    width: 58.33%;
+  }
+
+  .col-xs-8 {
+    width: 66.66%;
+  }
+
+  .col-xs-9 {
+    width: 75%;
+  }
+
+  .col-xs-10 {
+    width: 83.33%;
+  }
+
+  .col-xs-11 {
+    width: 91.66%;
+  }
+
+  .col-xs-12 {
+    width: 100%;
+  }
+
+  .row-xs-1 {
+    height: 15vh;
+  }
 }
 
- @media only screen and (min-width:768px){
-   [class*="col-"]{
-     float: left;
-   }
-  .col-s-0 {display: none;}
-  .col-s-1 {width: 8.33%;}
-  .col-s-2 {width: 16.66%;}
-  .col-s-3 {width: 25%;}
-  .col-s-4 {width: 33.33%;}
-  .col-s-5 {width: 41.66%;}
-  .col-s-6 {width: 50%;}
-  .col-s-7 {width: 58.33%;}
-  .col-s-8 {width: 66.66%;}
-  .col-s-9 {width: 75%;}
-  .col-s-10 {width: 83.33%;}
-  .col-s-11 {width: 91.66%;}
-  .col-s-12 {width: 100%;}
-
-  .row-s-1{height: 20vh;}
-  .row-s-2{height: 40vh;}
- }
- 
-
- @media only screen and (min-width:1024px){
-  [class*="col-"]{
+@media only screen and (min-width:768px) {
+  [class*="col-"] {
     float: left;
   }
- .col-0 {display: none;}
- .col-1 {width: 8.33%;}
- .col-2 {width: 16.66%;}
- .col-3 {width: 25%;}
- .col-4 {width: 33.33%;}
- .col-5 {width: 41.66%;}
- .col-6 {width: 50%;}
- .col-7 {width: 58.33%;}
- .col-8 {width: 66.66%;}
- .col-9 {width: 75%;}
- .col-10 {width: 83.33%;}
- .col-11 {width: 91.66%;}
- .col-12 {width: 100%;}
 
- .row-1{height: 35vh;}
- .row-2{height: 70vh;}
+  .col-s-0 {
+    display: none;
+  }
+
+  .col-s-1 {
+    width: 8.33%;
+  }
+
+  .col-s-2 {
+    width: 16.66%;
+  }
+
+  .col-s-3 {
+    width: 25%;
+  }
+
+  .col-s-4 {
+    width: 33.33%;
+  }
+
+  .col-s-5 {
+    width: 41.66%;
+  }
+
+  .col-s-6 {
+    width: 50%;
+  }
+
+  .col-s-7 {
+    width: 58.33%;
+  }
+
+  .col-s-8 {
+    width: 66.66%;
+  }
+
+  .col-s-9 {
+    width: 75%;
+  }
+
+  .col-s-10 {
+    width: 83.33%;
+  }
+
+  .col-s-11 {
+    width: 91.66%;
+  }
+
+  .col-s-12 {
+    width: 100%;
+  }
+
+  .row-s-1 {
+    height: 20vh;
+  }
+
+  .row-s-2 {
+    height: 40vh;
+  }
 }
 
-.right-align{
+
+@media only screen and (min-width:1024px) {
+  [class*="col-"] {
+    float: left;
+  }
+
+  .col-0 {
+    display: none;
+  }
+
+  .col-1 {
+    width: 8.33%;
+  }
+
+  .col-2 {
+    width: 16.66%;
+  }
+
+  .col-3 {
+    width: 25%;
+  }
+
+  .col-4 {
+    width: 33.33%;
+  }
+
+  .col-5 {
+    width: 41.66%;
+  }
+
+  .col-6 {
+    width: 50%;
+  }
+
+  .col-7 {
+    width: 58.33%;
+  }
+
+  .col-8 {
+    width: 66.66%;
+  }
+
+  .col-9 {
+    width: 75%;
+  }
+
+  .col-10 {
+    width: 83.33%;
+  }
+
+  .col-11 {
+    width: 91.66%;
+  }
+
+  .col-12 {
+    width: 100%;
+  }
+
+  .row-1 {
+    height: 35vh;
+  }
+
+  .row-2 {
+    height: 70vh;
+  }
+}
+
+.right-align {
   text-align: right;
 }
 
 /*
- *    '##:::###::::'###::::'##::::'##::::::::::'##::::'##:'########:'##:::###:'##::::'##:::::::::::::'##:::
- *    ####::###:::'#####:::###::::###::::::::::####::'###:###.....::####::###:###::::###:::::::::::'####:::
- *    #####:###::'##:.###::###::::###::::::::::#####'####:###:::::::#####:###:###::::###:::::::::::..###:::
- *    #########:'##:::.###:###::::###:'#######:##########:#######:::#########:###::::###:'#######::::###:::
- *    ###.#####:##########:.###::###::........:###.##:###:###...::::###.#####:###::::###:........::::###:::
- *    ###:.####:###....###::.######::::::::::::###:.::###:###:::::::###:.####:###::::###:::::::::::::###:::
- *    ###::.###:###::::###:::.####:::::::::::::###::::###:#########:###::.###:.########::::::::::::'######:
- *    ..::::..::..:::::..:::::...::::::::::::::..:::::..::........::..::::..:::.......:::::::::::::......::
+ *    '##:::###::::'###::::'##::::'##::::::::::'########:::::'###::::'########::
+ *    ####::###:::'#####:::###::::###::::::::::###....###:::'#####:::###....###:
+ *    #####:###::'##:.###::###::::###::::::::::###::::###::'##:.###::###::::###:
+ *    #########:'##:::.###:###::::###:'#######:#########::'##:::.###:#########::
+ *    ###.#####:##########:.###::###::........:###....###:##########:###..###:::
+ *    ###:.####:###....###::.######::::::::::::###::::###:###....###:###::.###::
+ *    ###::.###:###::::###:::.####:::::::::::::#########::###::::###:###:::.###:
+ *    ..::::..::..:::::..:::::...::::::::::::::........:::..:::::..::..:::::..::
  */
 
- .mn-1{
-   background-color: black;
-   color: lightgray;
-   font-family:"ARS Maquette", "Helvetica Neue", Arial, sans-serif;
-   font-size: 13px;
-   padding: 8px;
-   height: 30px;
- }
+.mn-1 {
+  background-color: black;
+  color: lightgray;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-size: 13px;
+  height: 30px;
+}
 
- .lft-mn-1{
-   width: 400px;
- }
+.lft-mn-1 {
+  width: 400px;
+  height: 100%;
+}
 
- .lft-mn-1 ul{
-   display: table;
- }
+.lft-mn-1 ul {
+  display: table;
+  height: 100%;
+}
 
- .lft-mn-1 li {
-   display: table-cell;
-   width: fit-content;
-   vertical-align: middle;
- }
+.lft-mn-1 li {
+  display: table-cell;
+  width: fit-content;
+  vertical-align: middle;
+}
 
- .lft-mn-1 svg{
-   display: none;
- }
+.lft-mn-1 svg {
+  display: none;
+}
 
- .rght-mn-1{
-   float: right;
-   width: 500px;
- }
- .rght-mn-1{
+.rght-mn-1 {
+  float: right;
+  width: 500px;
+  height: 100%;
+}
+
+.rght-mn-1 {
   width: 300px;
 }
 
-.rght-mn-1 ul{
+.rght-mn-1 ul {
+  height: 100%;
   display: table;
 }
 
@@ -158,14 +291,24 @@
   vertical-align: middle;
 }
 
-.tnw-logo{
+.tnw-logo {
   height: 70px;
   background-color: red;
   float: left;
 }
 
-.tnw-logo a, .tnw-logo svg {
+.tnw-logo a,
+.tnw-logo svg {
   height: 100%;
+}
+
+.tnw-logo {
+  background-color: #f42;
+  background: linear-gradient(to bottom right, #c09, #f42 85%);
+}
+
+.tnw-logo:hover {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/home-1.gif);
 }
 
 
@@ -180,55 +323,70 @@
  *    ..::::..::..:::::..:::::...::::::::::::::........:::..:::::..::..:::::..:::::::::::.........::
  */
 
-.lft-mn-1 .mn-2-svg{
+.lft-mn-1 .mn-2-svg {
   display: unset;
   height: 100%;
 }
 
-.rght-mn-2{
-   width: 500px;
- }
-
- .mn-2{
-  background-color: white;
-  color: gray;
-  font-family:"ARS Maquette", "Helvetica Neue", Arial, sans-serif;
-  font-size: 13px;
-  padding: 0px;
-  height: 40px;
- }
-
- .mn-2 ul{
-   height: 40px;
- }
-
-.mn-3{
-  background-color: rgb(255, 221, 51);;
+.rght-mn-2 {
+  width: 500px;
 }
 
-.fxd-nav{
+.mn-2 {
+  background-color: white;
+  color: gray;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-size: 13px;
+  padding: 0;
+  height: 40px;
+}
+
+.mn-2 ul {
+  height: 40px;
+}
+
+.mn-3 {
+  background-color: rgb(255, 221, 51);
+  height: 30px;
+  display: table;
+}
+
+.mn-3>div {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.fxd-nav {
   position: fixed;
 }
 
-body{
-  height: 200vw;
-}
+/*
+ *    :::'###::::'########::'########:'####::'######::'##:::::::'########::'######::::::::::::::'##:::
+ *    ::'#####:::###....###:...###..::.###::'##...###:###:::::::###.....::'##...###:::::::::::'####:::
+ *    :'##:.###::###::::###::::###:::::###::###:::..::###:::::::###:::::::###:::..::::::::::::..###:::
+ *    '##:::.###:#########:::::###:::::###::###:::::::###:::::::#######:::.#######::'#######::::###:::
+ *    ##########:###..###::::::###:::::###::###:::::::###:::::::###...:::::.....###:........::::###:::
+ *    ###....###:###::.###:::::###:::::###::###:::###:###:::::::###:::::::'##:::###:::::::::::::###:::
+ *    ###::::###:###:::.###::::###::::'####:.#######::#########:#########:.#######::::::::::::'######:
+ *    ..:::::..::..:::::..:::::..:::::....:::......:::........::........:::......:::::::::::::......::
+ */
 
-.left-img{
+.left-img {
   /* height: 70vh; */
   background-color: brown;
 }
 
-.right-img{
+.right-img {
   /* height: 35vh; */
   background-color: yellow;
 }
 
-.main-articles{
+.main-articles {
   padding: 8px;
 }
 
-.article-1{
+.article-1 {
   width: 100%;
   height: 100%;
   background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/artificial-intelligence-hed-796x417.jpg');
@@ -238,14 +396,14 @@ body{
   position: relative;
 }
 
-.article-1 span{
+.article-1 span {
   position: absolute;
   bottom: 0;
   color: white;
   font-size: 60px;
 }
 
-.article-2{
+.article-2 {
   height: 100%;
   width: 100%;
   background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Bitcoin.-796x417.jpg');
@@ -254,9 +412,13 @@ body{
   background-position-y: center;
 }
 
-.article-3{
+.article-3 {
   height: 100%;
   background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/speeding-ticket-flash-walter-arnold-ticket-car-motoring-uk-police-bicycle-fine-796x450.png');
   background-size: 100% auto;
   background-position-y: center;
+}
+
+body {
+  height: 200vw;
 }
