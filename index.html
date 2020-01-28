@@ -4,96 +4,90 @@
 <head lang="en">
   <meta charset="UFF-8">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
   <title></title>
 </head>
 
 <body>
   <header>
-    <div class="tnw-logo col-s-1 col-0">x</div>
-    <nav class="mn-1  col-s-12 col-12">
-      <div class="col-s-1 col-0">
-        <p></p>
-      </div>
-      <div class="lft-mn-1 col-5">
-        <ul>
-          <li>
-            <div>
-              <a><span>News</span></a>
-            </div>
-          </li>
-          <li>
-            <div>
-              <a><span>Events</span><svg></svg></a>
-            </div>
-          </li>
-          <li>
-            <div>
-              <a><span>Bussiness</span><svg></svg></a>
-            </div>
-          </li>
-          <li>
-            <div>
-              <a><span>AMAs</span></a>
-            </div>
-          </li>
-          <li>
-            <div>
-              <a><span>Space</span></a>
-            </div>
-          </li>
-          <li>
-            <div>
-              <a><span>Terms & Conditions</span></a>
-            </div>
-          </li>
-        </ul>
-      </div>
-      <div class="rght-mn-1 col-xs-0 col-6">
-        <ul>
-          <li>
-            <div>
-              <a><span>About</span></a>
-            </div>
-          </li>
-          <li>
-            <div>
-              <a><span>Team</span></a>
-            </div>
-          </li>
-          <li>
-            <div>
-              <a><span>Advertise</span></a>
-            </div>
-          </li>
-          <li>
-            <div>
-              <a><span>Jobs</span></a>
-            </div>
-          </li>
-          <li>
-            <div>
-              <a><span>Contact</span></a>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
     <section class="fxd-nav">
       <h6>Fixed Nav Secction</h6>
-      <nav class="mn-2  col-s-12 col-12">
-
+      <div class="tnw-logo col-s-1 col-0" id="lg-dv">
+        <a>
+          <svg class="mn-2-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 66 16" style="background-color: beige;">
+            <path fill="#FFF"
+              d="M34 16h-6v-5.2c0-.7-.3-1.3-.7-1.8L25 6.7c-.5-.4-1.1-.7-1.8-.7H22v10h-6V0h8.7c1.3 0 2.6.5 3.5 1.5l4.3 4.3c1 .9 1.5 2.2 1.5 3.5V16zM60 0v5.2c0 .7-.3 1.3-.7 1.8L57 9.3c-.5.5-1.1.7-1.8.7h-2.5c.8-.9 1.3-2.1 1.3-3.3V0h-6v5.2c0 .7-.3 1.3-.7 1.8L45 9.3c-.5.5-1.1.7-1.8.7H42V0h-6v16h8.7c1.3 0 2.6-.5 3.5-1.5l2.8-2.8V16h5.7c1.3 0 2.6-.5 3.5-1.5l4.3-4.3c1-.9 1.5-2.2 1.5-3.5V0h-6zM14 0H0v6h4v10h6V6h4" />
+          </svg>
+        </a>
+      </div>
+      <nav class="mn-1 col-s-11 col-12" id="tp-nv">
+        <div class="lft-mn-1 col-5">
+          <ul>
+            <li>
+              <div>
+                <a><span>News</span></a>
+              </div>
+            </li>
+            <li>
+              <div>
+                <a><span>Events</span><svg></svg></a>
+              </div>
+            </li>
+            <li>
+              <div>
+                <a><span>Bussiness</span><svg></svg></a>
+              </div>
+            </li>
+            <li>
+              <div>
+                <a><span>AMAs</span></a>
+              </div>
+            </li>
+            <li>
+              <div>
+                <a><span>Space</span></a>
+              </div>
+            </li>
+            <li>
+              <div>
+                <a><span>Terms & Conditions</span></a>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="rght-mn-1 col-xs-0 col-6">
+          <ul>
+            <li>
+              <div>
+                <a><span>About</span></a>
+              </div>
+            </li>
+            <li>
+              <div>
+                <a><span>Team</span></a>
+              </div>
+            </li>
+            <li>
+              <div>
+                <a><span>Advertise</span></a>
+              </div>
+            </li>
+            <li>
+              <div>
+                <a><span>Jobs</span></a>
+              </div>
+            </li>
+            <li>
+              <div>
+                <a><span>Contact</span></a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <nav class="mn-2 col-s-11 col-12">
         <div class="lft-mn-1 rght-mn-2 col-s-5">
-          <div class="col-s-2">
-            <a>
-              <svg class="mn-2-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 66 16"
-                style= "background-color: beige;">
-                <path fill="#FFF"
-                  d="M34 16h-6v-5.2c0-.7-.3-1.3-.7-1.8L25 6.7c-.5-.4-1.1-.7-1.8-.7H22v10h-6V0h8.7c1.3 0 2.6.5 3.5 1.5l4.3 4.3c1 .9 1.5 2.2 1.5 3.5V16zM60 0v5.2c0 .7-.3 1.3-.7 1.8L57 9.3c-.5.5-1.1.7-1.8.7h-2.5c.8-.9 1.3-2.1 1.3-3.3V0h-6v5.2c0 .7-.3 1.3-.7 1.8L45 9.3c-.5.5-1.1.7-1.8.7H42V0h-6v16h8.7c1.3 0 2.6-.5 3.5-1.5l2.8-2.8V16h5.7c1.3 0 2.6-.5 3.5-1.5l4.3-4.3c1-.9 1.5-2.2 1.5-3.5V0h-6zM14 0H0v6h4v10h6V6h4" />
-                </svg>
-            </a>
-          </div>
-          <ul class="col-s-10">
+          <ul class="col-s-11">
             <li>
               <div>
                 <a><span>LATEST</span></a>
@@ -131,18 +125,29 @@
           </ul>
         </div>
       </nav>
-      <nav class="mn-3  col-s-12 col-12">
+      <nav class="mn-3 col-s-12 col-12">
         <div class="mn-3-left-padding col-s-1 col-0">-</div>
         <span class="col-s-11 col-12">TNW2020 ticket price rise on Monday - get yours quick! -></span>
       </nav>
     </section>
-
-    <section class="main-articles col-s-12 col-12">
-      <article class="left-img row-xs-1 col-s-8 row-s-2 col-8 row-2"><div class="article-1"><span>TECH RealityEngines' AI could help small business overcome the tada gap by Tristan Greene 51 minutes ago 4</span></div></article>
-      <article class="right-img row-xs-1 col-s-4 row-s-1 col-4 row-1"><div class="article-2"></div></article>
-      <article class="right-img row-xs-1 col-s-4 row-s-1 col-4 row-1"><div class="article-3"></div></article>
-    </section>
-
+    <!-- <main style="top: 70px;">
+      <section class="main-articles col-s-12 col-12">
+        <h6>Main Articles Section</h6>
+        <article class="left-img row-xs-1 col-s-8 row-s-2 col-8 row-2">
+          <h6>Left Article</h6>
+          <div class="article-1"><span>TECH RealityEngines' AI could help small business overcome the tada gap by Tristan
+              Greene 51 minutes ago 4</span></div>
+        </article>
+        <article class="right-img row-xs-1 col-s-4 row-s-1 col-4 row-1">
+          <h6>Right Article</h6>
+          <div class="article-2"></div>
+        </article>
+        <article class="right-img row-xs-1 col-s-4 row-s-1 col-4 row-1">
+          <h6>Right Article</h6>
+          <div class="article-3"></div>
+        </article>
+      </section>
+    </main> -->
   </header>
 </body>
 

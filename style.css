@@ -162,7 +162,10 @@
   height: 70px;
   background-color: red;
   float: left;
-  position: absolute;
+}
+
+.tnw-logo a, .tnw-logo svg {
+  height: 100%;
 }
 
 
@@ -179,7 +182,7 @@
 
 .lft-mn-1 .mn-2-svg{
   display: unset;
-  height: 40px;
+  height: 100%;
 }
 
 .rght-mn-2{
@@ -204,11 +207,8 @@
 }
 
 .fxd-nav{
-  /* position: fixed;
-  top: 30px; */
+  position: fixed;
 }
-
-
 
 body{
   height: 200vw;
