@@ -357,6 +357,10 @@ ul {
   width: 100%;
 }
 
+.mn-3 span{
+  padding-left: 15px;
+}
+
 .fxd-nav {
   position: fixed;
 }
