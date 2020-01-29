@@ -127,7 +127,7 @@ ul {
   [class*="col-"] {
     float: left;
   }
-  
+
   .col-s-0 {
     display: none;
   }
@@ -346,7 +346,6 @@ ul {
 .tnw-logo {
   height: 70px;
   background: linear-gradient(to bottom right, #c09, #f42 85%);
-
   float: left;
 }
 
@@ -697,10 +696,6 @@ ul {
 .secondary-article-content {
   display: flex;
   flex-direction: column;
-}
-
-.secondary-article-content {
-  display: flex;
 }
 
 .secondary-heading {
