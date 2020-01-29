@@ -102,8 +102,12 @@ ul {
     height: 30vh;
   }
 
-  .row-xs-img-1{
+  .row-xs-img-1 {
     height: 100px;
+  }
+
+  .fndng-rd-ul {
+    flex-direction: column;
   }
 }
 
@@ -177,9 +181,10 @@ ul {
     height: 70vh;
   }
 
-  .row-s-img-1{
+  .row-s-img-1 {
     height: 120px;
   }
+
 }
 
 
@@ -240,8 +245,6 @@ ul {
     width: 100%;
   }
 
-
-
   .row-1 {
     height: 30vh;
   }
@@ -250,7 +253,7 @@ ul {
     height: 60vh;
   }
 
-  .row-img-1{
+  .row-img-1 {
     height: 120px;
   }
 }
@@ -263,6 +266,9 @@ ul {
   text-align: right;
 }
 
+.no-border{
+  border-left: none !important;
+}
 /*
  *    '##:::###::::'###::::'##::::'##::::::::::'########:::::'###::::'########::
  *    ####::###:::'#####:::###::::###::::::::::###....###:::'#####:::###....###:
@@ -593,7 +599,7 @@ ul {
   flex-direction: column;
 }
 
-.right-article-container a{
+.right-article-container a {
   text-decoration: none;
   color: white;
 }
@@ -643,7 +649,7 @@ ul {
   color: white;
 }
 
-.small-txt{
+.small-txt {
   font-size: 80%;
 }
 
@@ -669,13 +675,56 @@ ul {
   max-width: 1000px;
 }
 
-.secondary-article{
+.secondary-article {
   /* display: flex; */
   padding: 10px;
 }
 
-.secondary-article-img{
+.secondary-article-img {
   background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/newfakenews1200-516x270.png');
   background-position: center;
   background-size: auto 100%;
+}
+
+/***
+ *    :'######:::'########:::'#######::'##::::'##:'########::::::::::::'#######::
+ *    '##...###::###....###:'##....###:###::::###:###....###::::::::::'##....###:
+ *    ###:::..:::###::::###:###::::###:###::::###:###::::###::::::::::..:::::###:
+ *    ###::'####:#########::###::::###:###::::###:#########::'#######::'#######::
+ *    ###:::###::###..###:::###::::###:###::::###:###.....:::........::......###:
+ *    ###:::###::###::.###::###::::###:###::::###:###:::::::::::::::::'##::::###:
+ *    .#######:::###:::.###:.########::.########::###:::::::::::::::::.########::
+ *    :......::::..:::::..:::.......::::.......:::..:::::::::::::::::::.......:::
+ */
+
+.fndng-rd-tp {
+  display: flex;
+  align-items: center;
+  color: #f42;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.fndng-rd-tp a {
+  color: #f42;
+  text-decoration: none;
+}
+
+.fndng-rd-tp a:hover {
+  color: black;
+}
+
+.fndng-rd-ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  padding-inline-start: 0;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.fndng-rd-ul li {
+  width: auto;
+  padding: 5px 10px 5px 10px;
+  border-left: solid 1px #f42;
 }
