@@ -434,11 +434,10 @@ ul {
  */
 
 .left-img {
-  padding: 5px;
+  overflow: hidden;
 }
 
 .right-img {
-  padding: 5px;
 }
 
 .main-articles {
@@ -461,6 +460,8 @@ ul {
   color: white;
   font-size: 60px;
   z-index: 3;
+  display: table-cell;
+  vertical-align: bottom;
 }
 
 .grdnt-red {
@@ -468,6 +469,7 @@ ul {
   height: 100%;
   background: linear-gradient(160deg, rgba(255,0,0,1) 0%, rgba(200,201,195,0) 100%), linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(200,201,195,0) 100%);
   z-index: 2;
+  display: table;
 }
 
 .grdnt-blk{
