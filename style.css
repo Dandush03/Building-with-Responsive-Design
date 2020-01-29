@@ -168,6 +168,10 @@ ul {
   .row-s-2 {
     height: 40vh;
   }
+
+  .article-1{
+    font-size: 1.5rem;
+  }
 }
 
 
@@ -234,6 +238,10 @@ ul {
 
   .row-2 {
     height: 70vh;
+  }
+
+  .article-1{
+    font-size: 2.5rem;
   }
 }
 
@@ -458,10 +466,20 @@ ul {
   overflow: hidden;
 }
 
+.rtcl-lg-cntnr{
+  display: grid;
+  height: 50%;
+  align-items: center;
+  padding: 10px;
+}
+
+.rtcl-lg-cntnr svg{
+  width: 20%;
+}
+
 .article-1 span {
   bottom: 0;
   color: white;
-  font-size: 60px;
 }
 
 .grdnt-red {
@@ -470,6 +488,7 @@ ul {
   background: linear-gradient(160deg, rgba(255,0,0,1) 0%, rgba(200,201,195,0) 100%), linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(200,201,195,0) 100%);
   display: flex;
   align-items: flex-end;
+  flex-direction: column;
 }
 
 .grdnt-blk{
