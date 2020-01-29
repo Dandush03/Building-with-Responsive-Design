@@ -716,6 +716,12 @@ ul {
  *    :......::::..:::::..:::.......::::.......:::..:::::::::::::::::::.......:::
  */
 
+ .fndng-rd-wrpr{
+   margin: auto;
+   float: unset;
+   max-width: 1200px;
+ }
+
 .fndng-rd-tp {
   display: flex;
   align-items: center;
@@ -741,4 +747,19 @@ ul {
   width: auto;
   padding: 5px 10px 5px 10px;
   border-left: solid 1px #f42;
+}
+
+.top-funding{
+  position: relative;
+}
+
+.square-container{
+  position: absolute;
+}
+
+.square{
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  padding: 5px;
 }
