@@ -33,7 +33,7 @@ ul {
   width: 100%;
 }
 
-@media only screen and (min-width:0px) and (max-width: 768px) {
+@media only screen and (min-width:0) and (max-width: 768px) {
   [class*="col-"] {
     float: left;
   }
@@ -123,11 +123,10 @@ ul {
   }
 }
 
-@media only screen and (min-width:768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   [class*="col-"] {
     float: left;
   }
-
 
   .src-nv .col-s-0 {
     display: none;
@@ -202,8 +201,7 @@ ul {
   }
 }
 
-
-@media only screen and (min-width:1024px) {
+@media only screen and (min-width: 1024px) {
   [class*="col-"] {
     float: left;
   }
@@ -683,11 +681,6 @@ ul {
  *    .#######:::###:::.###:.########::.########::###:::::::::::::::::##########:
  *    :......::::..:::::..:::.......::::.......:::..::::::::::::::::::.........::
  */
-
-.secondary-container {
-  /* margin: 30px; */
-  /* width: 100%; */
-}
 
 .secondary-articles-container {
   margin: 0 auto;
