@@ -14,7 +14,8 @@ body {
   padding: 0;
 }
 
-section>h6 {
+section>h6,
+article>h6 {
   display: none;
 }
 
@@ -30,7 +31,6 @@ ul {
 * {
   box-sizing: border-box;
   width: 100%;
-  transition: 0.2s;
 }
 
 @media only screen and (min-width:0px) and (max-width: 768px) {
@@ -38,7 +38,7 @@ ul {
     float: left;
   }
 
-  .lg-mn-h{
+  .lg-mn-h {
     height: 40px !important;
   }
 
@@ -105,7 +105,7 @@ ul {
   }
 
 
-   .src-nv .col-s-0{
+  .src-nv .col-s-0 {
     display: none;
   }
 
@@ -321,7 +321,7 @@ ul {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/home-1.gif);
 }
 
-.src-div{
+.src-div {
   width: 75px;
 }
 
@@ -383,7 +383,7 @@ ul {
   display: table;
 }
 
-.src-nv ul{
+.src-nv ul {
   width: 75px;
   float: right;
   display: flex;
@@ -444,6 +444,7 @@ ul {
 }
 
 .main-articles {
+  margin-top: 100px;
   padding: 8px;
 }
 

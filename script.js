@@ -5,7 +5,10 @@ function myFunction() {
     document.getElementById("tp-nv").style.display = "none";
     document.getElementById("lg-dv").style.height = "40px";
   } else {
-    document.getElementById("tp-nv").style.display = "unset";
+
+    if(window.innerWidth > 768){
+      document.getElementById("tp-nv").style.display = "unset";
+    }
     document.getElementById("lg-dv").style.height = "70px";
   }
 }
