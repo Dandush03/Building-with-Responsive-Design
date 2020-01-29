@@ -33,7 +33,7 @@ ul {
   width: 100%;
 }
 
-@media only screen and (min-width:0) and (max-width: 768px) {
+@media only screen and (min-width: 0) and (max-width: 768px) {
   [class*="col-"] {
     float: left;
   }
@@ -127,12 +127,12 @@ ul {
   [class*="col-"] {
     float: left;
   }
-
-  .src-nv .col-s-0 {
+  
+  .col-s-0 {
     display: none;
   }
 
-  .col-s-0 {
+  .src-nv .col-s-0 {
     display: none;
   }
 
@@ -328,12 +328,8 @@ ul {
 
 .rght-mn-1 {
   float: right;
-  width: 500px;
-  height: 100%;
-}
-
-.rght-mn-1 {
   width: 300px;
+  height: 100%;
 }
 
 .rght-mn-1 ul {
@@ -349,18 +345,14 @@ ul {
 
 .tnw-logo {
   height: 70px;
-  background-color: red;
+  background: linear-gradient(to bottom right, #c09, #f42 85%);
+
   float: left;
 }
 
 .tnw-logo a,
 .tnw-logo svg {
   height: 100%;
-}
-
-.tnw-logo {
-  background-color: #f42;
-  background: linear-gradient(to bottom right, #c09, #f42 85%);
 }
 
 .tnw-logo:hover {
@@ -663,6 +655,11 @@ ul {
   text-decoration: none;
 }
 
+.fndng-rd-tp a {
+  color: #f42;
+  text-decoration: none;
+}
+
 .rtcl-tp-nf a:hover {
   color: white;
 }
@@ -684,12 +681,10 @@ ul {
 
 .secondary-articles-container {
   margin: 0 auto;
-  /* width: 100% */
   max-width: 1000px;
 }
 
 .secondary-article {
-  /* display: flex; */
   padding: 10px;
 }
 
@@ -732,11 +727,6 @@ ul {
   color: #f42;
   font-size: 28px;
   font-weight: bold;
-}
-
-.fndng-rd-tp a {
-  color: #f42;
-  text-decoration: none;
 }
 
 .fndng-rd-tp a:hover {
