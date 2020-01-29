@@ -101,6 +101,10 @@ ul {
   .row-xs-2 {
     height: 30vh;
   }
+
+  .row-xs-img-1{
+    height: 100px;
+  }
 }
 
 @media only screen and (min-width:768px) and (max-width: 1024px) {
@@ -172,6 +176,10 @@ ul {
   .row-s-2 {
     height: 70vh;
   }
+
+  .row-s-img-1{
+    height: 120px;
+  }
 }
 
 
@@ -240,6 +248,10 @@ ul {
 
   .row-2 {
     height: 60vh;
+  }
+
+  .row-img-1{
+    height: 120px;
   }
 }
 
@@ -652,7 +664,18 @@ ul {
 }
 
 .secondary-articles-container {
-  /* margin: 0 auto; */
+  margin: 0 auto;
   /* width: 100% */
-  max-width: 800px;
+  max-width: 1000px;
+}
+
+.secondary-article{
+  /* display: flex; */
+  padding: 10px;
+}
+
+.secondary-article-img{
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/newfakenews1200-516x270.png');
+  background-position: center;
+  background-size: auto 100%;
 }
