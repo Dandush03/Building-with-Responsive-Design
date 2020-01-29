@@ -434,13 +434,11 @@ ul {
  */
 
 .left-img {
-  /* height: 70vh; */
-  background-color: brown;
+  padding: 5px;
 }
 
 .right-img {
-  /* height: 35vh; */
-  background-color: yellow;
+  padding: 5px;
 }
 
 .main-articles {
@@ -455,14 +453,27 @@ ul {
   background-size: 100% auto;
   background-position-y: center;
   background-color: red;
-  position: relative;
+  z-index: 1;
 }
 
 .article-1 span {
-  position: absolute;
   bottom: 0;
   color: white;
   font-size: 60px;
+  z-index: 3;
+}
+
+.grdnt-red {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(160deg, rgba(255,0,0,1) 0%, rgba(200,201,195,0) 100%), linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(200,201,195,0) 100%);
+  z-index: 2;
+}
+
+.grdnt-blk{
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(200,201,195,0) 100%);
 }
 
 .article-2 {
