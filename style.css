@@ -766,23 +766,56 @@ ul {
 
 .top-funding{
   position: relative;
+  font-family: 'Open Sans', sans-serif;
+  padding: 10px 15px 10px 0;
 }
 
 .square-container{
+  text-decoration: none;
   position: relative
+
 }
 
 .square-container h4 {
   position: inherit;
   float: unset;
-  padding: 0;
+  padding: 10px 0 10px 80px;
   margin: 0;
+  background-color:rgb(255, 68, 34);
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
 }
 
 .square{
-  width: 70px;
-  height: 70px;
+  width: 80px;
+  height: 80px;
   position: absolute;
-  padding: 5px;
+  padding: 10px;
   z-index: 2;
+}
+
+.top-funding-header{
+  background-color: rgba(255, 68, 34, 0.08);
+  padding: 5px 0px;
+  
+}
+
+.top-funding-header h4{
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.top-funding-header h5{
+  font-size: 12px;
+  opacity: 0.5;
+  font-family: 'Ropa Sans', sans-serif; 
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  font-weight: 500;
+}
+
+.top-funding-header h4, .top-funding-header h5{
+  padding:  0 0 0 80px;
+  margin: 0;
 }
