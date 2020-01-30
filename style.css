@@ -114,6 +114,10 @@ ul {
     height: 80px;
   }
 
+  .row-xs-img-2{
+    height: 160px;
+  }
+
   .row-xs-art {
     height: 100px;
   }
@@ -950,6 +954,8 @@ ul {
 .news-section-container {
   margin: 0 auto;
   max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .news-section {
