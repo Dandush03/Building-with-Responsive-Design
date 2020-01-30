@@ -1013,10 +1013,64 @@ ul {
   flex-direction: column;
   justify-content: flex-end;
   color: white;
+  padding: 10px;
 }
 
 .news-section-latest {
   display: flex;
+  background-color: rgba(255,68,34,.06);
+}
+
+.latest-img{
+  width: 90px;
+  height: 80px;
+  background-position: center;
+  background-size: auto 100%;
+}
+
+.nsli-img-1{
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Google-translate.png');
+}
+
+.nsli-img-2{
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Snag_400158cd.png');
+}
+
+.nsli-img-3{
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/04/Mark-Zuckerberg-Facebook.png');
+}
+
+.nsli-img-4{
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/instagram-photoshop-hide-misinformation.jpg');
+}
+
+.nsli-img-5{
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Untitled-design47.png');
+}
+
+.nsli-img-6{
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/cambodia.jpg');
+}
+
+.nsli-img-7{
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Press-Conference-with-Eric-Esrailian-Alexis-Ohanian-Hakob-Arshakyan-Yervant-Zorian-and-Serj-Tankian-hed.jpg');
+}
+
+.nsli-img-8{
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Snag_2267466a.png');
+}
+
+.latest-title-container{
+  padding: 10px;
+}
+
+.news-section-list li span {
+  position: relative;
+  left: -4px;
+}
+
+.news-section-list ul{
+  text-align: left;
 }
 
 /***
