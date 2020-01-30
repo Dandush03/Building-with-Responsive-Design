@@ -368,10 +368,6 @@ ul {
   height: 100%;
 }
 
-.tnw-logo:hover {
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/home-1.gif);
-}
-
 .src-div {
   width: 75px;
 }
@@ -673,10 +669,6 @@ ul {
   text-decoration: none;
 }
 
-.rtcl-tp-nf a:hover {
-  color: white;
-}
-
 .small-txt {
   font-size: 80%;
 }
@@ -780,15 +772,6 @@ ul {
   text-decoration: none;
 }
 
-.secondary-heading a:hover {
-  color: black;
-}
-
-.secondary-article-title a:hover {
-  color: #f42;
-  text-decoration: none;
-}
-
 /***
  *    :'######:::'########:::'#######::'##::::'##:'########::::::::::::'#######::
  *    '##...###::###....###:'##....###:###::::###:###....###::::::::::'##....###:
@@ -812,10 +795,6 @@ ul {
   font-size: 28px;
   font-weight: bold;
   font-family: 'Open Sans', sans-serif;
-}
-
-.fndng-rd-tp a:hover {
-  color: black;
 }
 
 .fndng-rd-ul {
@@ -918,16 +897,73 @@ ul {
 
 .top-funding-container a {
   display: flex;
+  padding: 5px;
   align-items: center;
   justify-content: flex-start;
+  text-decoration: none;
+  color: #000;
+  font-weight: 400;
 }
 
 .top-funding-container span {
   margin-left: 10px;
   margin-top: 5px;
+  color:rgb(85, 85, 85);
 }
 
 .top-funding hr{
   border:  rgba(255, 68, 34, 0.3) solid 1px;
   margin: 10px 0;
+}
+
+.btm-funding-container{
+  background-color: rgba(255, 68, 34, 0.03);
+  padding: 10px;
+  font-size: 13px;
+}
+
+.btm-funding-container ul{
+  list-style-type: none;
+}
+
+.btm-funding-container li {
+  color:rgb(85, 85, 85);
+  text-align: left;
+}
+
+.btm-funding-container a {
+  text-decoration: none;
+  color: rgb(170, 170, 170);
+}
+
+/***
+ *    :::'###:::::'######::'########:'####::'#######::'##:::###::'######::
+ *    ::'#####:::'##...###:...###..::.###::'##....###:####::###:'##...###:
+ *    :'##:.###::###:::..:::::###:::::###::###::::###:#####:###:###:::..::
+ *    '##:::.###:###::::::::::###:::::###::###::::###:#########:.#######::
+ *    ##########:###::::::::::###:::::###::###::::###:###.#####::.....###:
+ *    ###....###:###:::###::::###:::::###::###::::###:###:.####:'##:::###:
+ *    ###::::###:.#######:::::###::::'####:.########::###::.###:.#######::
+ *    ..:::::..:::......::::::..:::::....:::.......:::..::::..:::......:::
+ */
+
+.tnw-logo:hover {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/home-1.gif);
+}
+
+.fndng-rd-tp a:hover {
+  color: black;
+}
+
+.secondary-heading a:hover {
+  color: black;
+}
+
+.secondary-article-title a:hover {
+  color: #f42;
+  text-decoration: none;
+}
+
+.rtcl-tp-nf a:hover {
+  color: white;
 }
