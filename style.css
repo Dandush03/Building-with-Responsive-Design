@@ -120,7 +120,13 @@ ul {
 
   .fndng-rd-ul {
     flex-direction: column;
+    align-items: flex-start;
   }
+
+  .fndng-rd-ul .no-border-xs {
+    border-left: none;
+  }
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -272,6 +278,14 @@ ul {
 
   .row-art {
     height: 300px;
+  }
+
+  .fndng-rd-ul {
+    justify-content: flex-end;
+  }
+
+  .fndng-rd-tp {
+    display: flex;
   }
 }
 
@@ -693,35 +707,35 @@ ul {
   background-size: auto 100%;
 }
 
-.sa-img-1{
+.sa-img-1 {
   background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/tesla-stock-billion-dollar-car-maker-trade-hard-fork-finance-nasdaq-TSLA-480x270.png');
 }
 
-.sa-img-2{
+.sa-img-2 {
   background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/facebook-516x270.png');
 }
 
-.sa-img-3{
+.sa-img-3 {
   background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Copy-of-Copy-of-Copy-of-Copy-of-...-3-516x270.png');
 }
 
-.sa-img-4{
+.sa-img-4 {
   background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/kDsg9Ra-540x270.jpg');
 }
 
-.sa-img-5{
+.sa-img-5 {
   background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/sale_25674_primary_image_wide-540x270.jpg');
 }
 
-.sa-img-6{
+.sa-img-6 {
   background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/apple-tv-airplay-2-money-header-516x270.png');
 }
 
-.sa-img-7{
+.sa-img-7 {
   background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/paris-museums-15000-images-online-copyright-516x270.jpg');
 }
 
-.sa-img-8{
+.sa-img-8 {
   background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/image-1-480x270.png');
 }
 
@@ -743,34 +757,34 @@ ul {
   font-size: 1.7em;
 }
 
-.secondary-article-title{
+.secondary-article-title {
   font-family: 'Open Sans', sans-serif;
   font-weight: bolder;
   font-size: .9em;
 }
 
-.secondary-article-details{
+.secondary-article-details {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size: .8em;
-  color:#aaa;
+  color: #aaa;
 }
 
-.secondary-heading a{
+.secondary-heading a {
   color: #f42;
   text-decoration: none;
 }
 
-.secondary-article-title a{
+.secondary-article-title a {
   color: black;
   text-decoration: none;
 }
 
-.secondary-heading a:hover{
+.secondary-heading a:hover {
   color: black;
 }
 
-.secondary-article-title a:hover{
+.secondary-article-title a:hover {
   color: #f42;
   text-decoration: none;
 }
@@ -786,18 +800,17 @@ ul {
  *    :......::::..:::::..:::.......::::.......:::..:::::::::::::::::::.......:::
  */
 
- .fndng-rd-wrpr{
-   margin: auto;
-   float: unset;
-   max-width: 1200px;
- }
+.fndng-rd-wrpr {
+  margin: auto;
+  float: unset;
+  max-width: 1200px;
+}
 
 .fndng-rd-tp {
-  display: flex;
   align-items: center;
   color: #f42;
   font-size: 28px;
-  font-weight: bold;  
+  font-weight: bold;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -807,7 +820,6 @@ ul {
 
 .fndng-rd-ul {
   display: flex;
-  justify-content: flex-end;
   list-style-type: none;
   padding-inline-start: 0;
   font-size: 16px;
@@ -820,16 +832,15 @@ ul {
   border-left: solid 1px #f42;
 }
 
-.top-funding{
+.top-funding {
   position: relative;
   font-family: 'Open Sans', sans-serif;
   padding: 10px 15px 10px 0;
 }
 
-.square-container{
+.square-container {
   text-decoration: none;
   position: relative
-
 }
 
 .square-container h4 {
@@ -837,13 +848,13 @@ ul {
   float: unset;
   padding: 10px 0 10px 80px;
   margin: 0;
-  background-color:rgb(255, 68, 34);
+  background-color: rgb(255, 68, 34);
   color: white;
   font-weight: 700;
   font-size: 18px;
 }
 
-.square{
+.square {
   width: 80px;
   height: 80px;
   position: absolute;
@@ -851,27 +862,72 @@ ul {
   z-index: 2;
 }
 
-.top-funding-header{
+.top-funding-header {
   background-color: rgba(255, 68, 34, 0.08);
   padding: 5px 0px;
-  
+
 }
 
-.top-funding-header h4{
+.top-funding-header h4 {
   font-weight: 700;
   font-size: 18px;
 }
 
-.top-funding-header h5{
+.top-funding-header h5 {
   font-size: 12px;
   opacity: 0.5;
-  font-family: 'Ropa Sans', sans-serif; 
+  font-family: 'Ropa Sans', sans-serif;
   text-transform: uppercase;
   letter-spacing: .04em;
   font-weight: 500;
 }
 
-.top-funding-header h4, .top-funding-header h5{
-  padding:  0 0 0 80px;
+.top-funding-header h4,
+.top-funding-header h5 {
+  padding: 0 0 0 80px;
   margin: 0;
+}
+
+.top-funding-container {
+  background-color: rgba(255, 68, 34, 0.03);
+}
+
+.i-tag {
+  margin: auto;
+  width: 16px;
+  height: 16px;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783);
+  background-origin: padding-box;
+  background-position-x: 320px;
+  background-position-y: 320px;
+  background-size: 1296px 1296px;
+}
+
+.i-case {
+  margin: auto;
+  width: 16px;
+  height: 16px;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783);
+  background-origin: padding-box;
+  background-position-x: -48px;
+  background-position-y: -48px;
+  background-size: 1296px 1296px;
+}
+
+.top-funding-container a {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.top-funding-container span {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.top-funding hr{
+  border:  rgba(255, 68, 34, 0.3) solid 1px;
+  margin: 10px 0;
 }
