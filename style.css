@@ -680,7 +680,7 @@ ul {
 
 .secondary-articles-container {
   margin: 0 auto;
-  max-width: 1000px;
+  max-width: 1200px;
 }
 
 .secondary-article {
@@ -699,10 +699,24 @@ ul {
 }
 
 .secondary-heading {
-  height: 200px;
+  height: 150px;
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  font-size: 1.7em;
+}
+
+.secondary-heading a{
+  color: #f42;
+  text-decoration: none;
+}
+
+.secondary-heading a:hover{
+  color: black;
 }
 
 /***
@@ -727,7 +741,8 @@ ul {
   align-items: center;
   color: #f42;
   font-size: 28px;
-  font-weight: bold;
+  font-weight: bold;  
+  font-family: 'Open Sans', sans-serif;
 }
 
 .fndng-rd-tp a:hover {
