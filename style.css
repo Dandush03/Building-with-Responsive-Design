@@ -115,7 +115,7 @@ ul {
   }
 
   .row-xs-img-2 {
-    height: 160px;
+    height: 500px;
   }
 
   .row-xs-art {
@@ -206,6 +206,10 @@ ul {
     height: 160px;
   }
 
+  .row-s-img-2{
+    height: 330px;
+  }
+
   .row-s-art {
     height: 300px;
   }
@@ -278,6 +282,10 @@ ul {
 
   .row-img-1 {
     height: 160px;
+  }
+
+  .row-img-2{
+    height: 290px;
   }
 
   .row-art {
@@ -969,8 +977,39 @@ ul {
 }
 
 .ns-img-1 {
-  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/tesla-stock-billion-dollar-car-maker-trade-hard-fork-finance-nasdaq-TSLA-480x270.png');
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/06/moviepass-368x276.png');
 }
+
+.ns-img-2 {
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Apple-AirPods-Pro-368x276.jpg');
+}
+
+.ns-img-3 {
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-...-2-1-368x276.png');
+}
+
+.ns-img-4 {
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/GodfallTeaser04-368x276.png');
+}
+
+.ns-img-5 {
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/00-Cover-–-DataReportal-Digital-2020-Global-Digital-Overview-Slide--368x276.png');
+}
+
+.ns-img-6 {
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/paris-museums-15000-images-online-copyright-368x276.jpg');
+}
+
+.ns-img-7 {
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Amazon-Prime-Fresh-delivery-hed-368x276.jpg');
+}
+
+.ns-img-8 {
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/Google-Android-Developer-Options-368x276.jpg');
+}
+
+
+
 
 /***
  *    :'######:::'########:::'#######::'##::::'##:'########:::::::::::'########:
