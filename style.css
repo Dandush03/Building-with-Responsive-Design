@@ -206,7 +206,7 @@ ul {
     height: 160px;
   }
 
-  .row-s-img-2{
+  .row-s-img-2 {
     height: 330px;
   }
 
@@ -284,7 +284,7 @@ ul {
     height: 160px;
   }
 
-  .row-img-2{
+  .row-img-2 {
     height: 290px;
   }
 
@@ -1008,15 +1008,15 @@ ul {
   background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/Google-Android-Developer-Options-368x276.jpg');
 }
 
-.news-section-img-content{
+.news-section-img-content {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   color: white;
 }
 
-.news-section-latest{
-display: flex;
+.news-section-latest {
+  display: flex;
 }
 
 /***
@@ -1039,17 +1039,17 @@ display: flex;
   display: flex;
 }
 
-.latest-deals-header h4+h5{
+.latest-deals-header h4+h5 {
   padding: 0;
   margin: 0;
 }
 
-.latest-deals-header h4{
+.latest-deals-header h4 {
   font-size: 28px;
   font-weight: bold;
 }
 
-.latest-deals-header h5{
+.latest-deals-header h5 {
   font-size: 16px;
   font-weight: 400;
 }
@@ -1057,6 +1057,23 @@ display: flex;
 .latest-deals-header a {
   text-decoration: none;
   color: #f42;
+}
+
+.lastes-deal-article {
+  max-width: 1200px;
+  margin: auto;
+  float: unset;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.lst-dl-art-hdr {
+  position: relative;
+}
+
+.lst-dl-promo-bckgrn,
+.lst-dl-promo-bckgrn svg {
+  position: absolute;
+  right: 0;
 }
 
 /***
