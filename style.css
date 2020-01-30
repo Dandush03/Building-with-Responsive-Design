@@ -193,11 +193,11 @@ ul {
   }
 
   .row-s-img-1 {
-    height: 120px;
+    height: 160px;
   }
 
   .row-s-art {
-    height: 200px;
+    height: 300px;
   }
 }
 
@@ -267,11 +267,11 @@ ul {
   }
 
   .row-img-1 {
-    height: 120px;
+    height: 160px;
   }
 
   .row-art {
-    height: 200px;
+    height: 300px;
   }
 }
 
@@ -685,21 +685,54 @@ ul {
 
 .secondary-article {
   padding: 10px;
+  overflow: hidden;
 }
 
 .secondary-article-img {
-  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/newfakenews1200-516x270.png');
   background-position: center;
   background-size: auto 100%;
+}
+
+.sa-img-1{
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/tesla-stock-billion-dollar-car-maker-trade-hard-fork-finance-nasdaq-TSLA-480x270.png');
+}
+
+.sa-img-2{
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/facebook-516x270.png');
+}
+
+.sa-img-3{
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Copy-of-Copy-of-Copy-of-Copy-of-...-3-516x270.png');
+}
+
+.sa-img-4{
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/kDsg9Ra-540x270.jpg');
+}
+
+.sa-img-5{
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/sale_25674_primary_image_wide-540x270.jpg');
+}
+
+.sa-img-6{
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/apple-tv-airplay-2-money-header-516x270.png');
+}
+
+.sa-img-7{
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/paris-museums-15000-images-online-copyright-516x270.jpg');
+}
+
+.sa-img-8{
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/image-1-480x270.png');
 }
 
 .secondary-article-content {
   display: flex;
   flex-direction: column;
+  padding: 4px;
 }
 
 .secondary-heading {
-  height: 150px;
+  height: 200px;
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
@@ -710,13 +743,36 @@ ul {
   font-size: 1.7em;
 }
 
+.secondary-article-title{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  font-size: .9em;
+}
+
+.secondary-article-details{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: .8em;
+  color:#aaa;
+}
+
 .secondary-heading a{
   color: #f42;
   text-decoration: none;
 }
 
+.secondary-article-title a{
+  color: black;
+  text-decoration: none;
+}
+
 .secondary-heading a:hover{
   color: black;
+}
+
+.secondary-article-title a:hover{
+  color: #f42;
+  text-decoration: none;
 }
 
 /***
