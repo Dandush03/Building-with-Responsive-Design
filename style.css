@@ -114,7 +114,7 @@ ul {
     height: 80px;
   }
 
-  .row-xs-img-2{
+  .row-xs-img-2 {
     height: 160px;
   }
 
@@ -905,33 +905,33 @@ ul {
   align-items: center;
   justify-content: flex-start;
   text-decoration: none;
-  color: #000;
+  color: rgb(85, 85, 85);
   font-weight: 400;
 }
 
 .top-funding-container span {
   margin-left: 10px;
   margin-top: 5px;
-  color:rgb(85, 85, 85);
 }
 
-.top-funding hr{
-  border:  rgba(255, 68, 34, 0.3) solid 1px;
-  margin: 10px 0;
+.top-funding hr {
+  border: rgba(255, 68, 34, 0.3) solid 1px;
+  margin-top: 10px;
+  margin-bottom: 0;
 }
 
-.btm-funding-container{
+.btm-funding-container {
   background-color: rgba(255, 68, 34, 0.03);
   padding: 10px;
   font-size: 13px;
 }
 
-.btm-funding-container ul{
+.btm-funding-container ul {
   list-style-type: none;
 }
 
 .btm-funding-container li {
-  color:rgb(85, 85, 85);
+  color: rgb(85, 85, 85);
   text-align: left;
 }
 
@@ -968,8 +968,48 @@ ul {
   background-size: auto 100%;
 }
 
-.ns-img-1{
+.ns-img-1 {
   background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/tesla-stock-billion-dollar-car-maker-trade-hard-fork-finance-nasdaq-TSLA-480x270.png');
+}
+
+/***
+ *    :'######:::'########:::'#######::'##::::'##:'########:::::::::::'########:
+ *    '##...###::###....###:'##....###:###::::###:###....###::::::::::###.....::
+ *    ###:::..:::###::::###:###::::###:###::::###:###::::###::::::::::###:::::::
+ *    ###::'####:#########::###::::###:###::::###:#########::'#######:########::
+ *    ###:::###::###..###:::###::::###:###::::###:###.....:::........:......###:
+ *    ###:::###::###::.###::###::::###:###::::###:###:::::::::::::::::'##:::###:
+ *    .#######:::###:::.###:.########::.########::###:::::::::::::::::.#######::
+ *    :......::::..:::::..:::.......::::.......:::..:::::::::::::::::::......:::
+ */
+.latest-deals-header {
+  max-width: 1200px;
+  margin: auto;
+  float: unset;
+  color: #f42;
+  font-family: 'Open Sans', sans-serif;
+  align-items: center;
+  display: flex;
+}
+
+.latest-deals-header h4+h5{
+  padding: 0;
+  margin: 0;
+}
+
+.latest-deals-header h4{
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.latest-deals-header h5{
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.latest-deals-header a {
+  text-decoration: none;
+  color: #f42;
 }
 
 /***
@@ -1002,4 +1042,8 @@ ul {
 
 .rtcl-tp-nf a:hover {
   color: white;
+}
+
+.top-funding-container a:hover {
+  color: black;
 }
