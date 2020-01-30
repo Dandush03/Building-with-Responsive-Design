@@ -754,7 +754,14 @@ ul {
 }
 
 .square-container{
-  position: absolute;
+  position: relative
+}
+
+.square-container h4 {
+  position: inherit;
+  float: unset;
+  padding: 0;
+  margin: 0;
 }
 
 .square{
@@ -762,4 +769,5 @@ ul {
   height: 70px;
   position: absolute;
   padding: 5px;
+  z-index: 2;
 }
