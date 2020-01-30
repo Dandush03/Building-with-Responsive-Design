@@ -1130,6 +1130,31 @@ ul {
   right: 0;
 }
 
+.lst-dl-promo-span{
+  position: absolute;
+  right: 0;
+  width: 25.33%;
+  transform: rotate(45deg);
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  height: 29.33%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.lst-dl-title h4{
+  padding: 2px;
+  margin: 0;
+}
+
+.lst-dl-title a{
+  color: black;
+  text-decoration: none;
+}
+
 /***
  *    :::'###:::::'######::'########:'####::'#######::'##:::###::'######::
  *    ::'#####:::'##...###:...###..::.###::'##....###:####::###:'##...###:
@@ -1164,4 +1189,10 @@ ul {
 
 .top-funding-container a:hover {
   color: black;
+}
+
+.lst-dl-title a:hover{
+  color: #f42;
+  text-decoration-style: solid;
+  text-decoration-color: rgba(170, 170, 170, 0.575);
 }
