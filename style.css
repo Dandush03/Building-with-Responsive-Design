@@ -131,7 +131,7 @@ ul {
     border-left: none;
   }
 
-  .lst-dl-art-hdr{
+  .lst-dl-art-hdr {
     padding: 0 10px;
   }
 
@@ -204,6 +204,10 @@ ul {
 
   .row-s-2 {
     height: 100%;
+  }
+
+  .height-s {
+    height: 60vh;
   }
 
   .row-s-img-1 {
@@ -284,7 +288,7 @@ ul {
     height: 100%;
   }
 
-  .height-max{
+  .height-max {
     height: 75vh;
     max-height: 560px;
   }
@@ -783,7 +787,8 @@ ul {
   color: #aaa;
 }
 
-.secondary-heading a, .news-section-heading a {
+.secondary-heading a,
+.news-section-heading a {
   color: #f42;
   text-decoration: none;
 }
@@ -1025,64 +1030,64 @@ ul {
   padding: 10px;
 }
 
-.news-section-img-content a{
+.news-section-img-content a {
   text-decoration: none;
   color: white;
 }
 
-.news-section-img-content a:hover{
+.news-section-img-content a:hover {
   border-bottom: 1px solid #555;
 }
 
 .news-section-latest {
   display: flex;
-  background-color: rgba(255,68,34,.06);
+  background-color: rgba(255, 68, 34, .06);
 }
 
-.latest-img{
+.latest-img {
   width: 90px;
   height: 80px;
   background-position: center;
   background-size: auto 100%;
 }
 
-.nsli-img-1{
+.nsli-img-1 {
   background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Google-translate.png');
 }
 
-.nsli-img-2{
+.nsli-img-2 {
   background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Snag_400158cd.png');
 }
 
-.nsli-img-3{
+.nsli-img-3 {
   background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/04/Mark-Zuckerberg-Facebook.png');
 }
 
-.nsli-img-4{
+.nsli-img-4 {
   background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/instagram-photoshop-hide-misinformation.jpg');
 }
 
-.nsli-img-5{
+.nsli-img-5 {
   background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Untitled-design47.png');
 }
 
-.nsli-img-6{
+.nsli-img-6 {
   background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/cambodia.jpg');
 }
 
-.nsli-img-7{
+.nsli-img-7 {
   background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Press-Conference-with-Eric-Esrailian-Alexis-Ohanian-Hakob-Arshakyan-Yervant-Zorian-and-Serj-Tankian-hed.jpg');
 }
 
-.nsli-img-8{
+.nsli-img-8 {
   background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Snag_2267466a.png');
 }
 
-.latest-title-container{
+.latest-title-container {
   padding: 10px;
 }
 
-.news-section-list li span a{
+.news-section-list li span a {
   position: relative;
   left: 8px;
   font-family: 'Open Sans', sans-serif;
@@ -1092,66 +1097,68 @@ ul {
   text-decoration: none;
 }
 
-.news-section-list a:hover{
+.news-section-list a:hover {
   color: #555;
 }
 
-.news-section-list li{
+.news-section-list li {
   margin-bottom: 20px;
 }
 
-.news-section-list ul{
+.news-section-list ul {
   text-align: unset;
   margin-left: -15px;
   list-style: none
 }
-.news-section-list li::before{
+
+.news-section-list li::before {
   content: "•";
   color: red;
 }
 
-.news-section-heading{
+.news-section-heading {
   height: 80px;
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
-    margin: 0 auto;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bolder;
-    font-size: 1.7em;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  font-size: 1.7em;
 }
 
-.img-content-mostpop{
-  font-family: 'PT Sans Narrow','Open Sans', sans-serif;
+.img-content-mostpop {
+  font-family: 'PT Sans Narrow', 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 200;
 }
 
-.img-content-title{
+.img-content-title {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   font-weight: 700;
 }
 
-.img-content-details{
+.img-content-details {
   font-family: 'Open Sans', sans-serif;
   font-size: 13px;
   font-weight: 200;
   color: #aaa;
 }
 
-.latest-title-container, .latest-title-container a {
-  color:  rgb(255, 68, 34);
+.latest-title-container,
+.latest-title-container a {
+  color: rgb(255, 68, 34);
   text-decoration: none;
 }
 
-.latest-heading{
-  font-family: 'PT Sans Narrow','Open Sans', sans-serif;
+.latest-heading {
+  font-family: 'PT Sans Narrow', 'Open Sans', sans-serif;
   font-size: 13px;
   font-weight: 200;
 }
 
-.latest-title{  
+.latest-title {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   font-weight: 800;
@@ -1167,6 +1174,11 @@ ul {
  *    .#######:::###:::.###:.########::.########::###:::::::::::::::::.#######::
  *    :......::::..:::::..:::.......::::.......:::..:::::::::::::::::::......:::
  */
+
+.latest-deals {
+  margin-bottom: 10vh;
+}
+
 .latest-deals-header {
   max-width: 1200px;
   margin: auto;
@@ -1214,7 +1226,7 @@ ul {
   right: 0;
 }
 
-.lst-dl-promo-span{
+.lst-dl-promo-span {
   position: absolute;
   right: 0;
   width: 25.33%;
@@ -1229,29 +1241,29 @@ ul {
   text-align: center;
 }
 
-.lst-dl-title h4{
+.lst-dl-title h4 {
   padding: 2px;
   margin: 0;
 }
 
-.lst-dl-title a{
+.lst-dl-title a {
   color: black;
   text-decoration: none;
 }
 
-.orgnl-price{
+.orgnl-price {
   text-decoration: line-through;
   font-size: 12px;
   margin-right: 4px;
-  color:rgb(170, 170, 170);
+  color: rgb(170, 170, 170);
 }
 
-.deal-price{
+.deal-price {
   color: rgb(85, 85, 85);
   font-size: 14px;
 }
 
-.lastes-deal-article{
+.lastes-deal-article {
   padding: 5px;
 }
 
@@ -1261,7 +1273,7 @@ F O O T E R
 
 **************************/
 
-.footer-container{
+.footer-container {
   width: 100%;
   background-color: black;
   text-align: center;
@@ -1269,13 +1281,13 @@ F O O T E R
   float: left;
 }
 
-.footer-top{
+.footer-top {
   background-color: #131313;
   padding-top: 80px;
   padding-bottom: 0px;
 }
 
-.social-icon{
+.social-icon {
   /* background:transparent, url('https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783'); */
   background-color: transparent;
   background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783);
@@ -1285,7 +1297,7 @@ F O O T E R
   /* background-color: red; */
 }
 
-.footer-fb{
+.footer-fb {
   background-position: -272px -272px;
 }
 
@@ -1310,10 +1322,10 @@ F O O T E R
 }
 
 .footer-fd {
-    background-position: -816px -816px;
-  }
+  background-position: -816px -816px;
+}
 
-.footer-social-2 li a{
+.footer-social-2 li a {
   border: #333 1px solid;
   background-color: #333;
   width: 50px;
@@ -1323,7 +1335,7 @@ F O O T E R
   border-radius: 50%;
 }
 
-.footer-social-2 li a:hover{
+.footer-social-2 li a:hover {
   border: #333 1px solid;
   background-color: #131313;
   width: 50px;
@@ -1334,11 +1346,11 @@ F O O T E R
 }
 
 
-.footer-social{
+.footer-social {
   margin: auto;
 }
 
-.footer-social ul{
+.footer-social ul {
   display: flex;
   justify-content: center;
   list-style-type: none;
@@ -1363,20 +1375,21 @@ F O O T E R
   color: rgb(170, 170, 170);
 }
 
-.footer-credits svg{
+.footer-credits svg {
   width: 45px;
 }
 
-.heart{
+.heart {
   color: red;
 }
 
-.creator{
+.creator {
   color: white;
   font-size: 13px;
   font-weight: bold;
   text-transform: uppercase;
 }
+
 /***
  *    :::'###:::::'######::'########:'####::'#######::'##:::###::'######::
  *    ::'#####:::'##...###:...###..::.###::'##....###:####::###:'##...###:
@@ -1396,7 +1409,8 @@ F O O T E R
   color: black;
 }
 
-.secondary-heading a:hover, .news-section-heading a:hover {
+.secondary-heading a:hover,
+.news-section-heading a:hover {
   color: black;
 }
 
@@ -1413,7 +1427,7 @@ F O O T E R
   color: black;
 }
 
-.lst-dl-title a:hover{
+.lst-dl-title a:hover {
   color: #f42;
   text-decoration-style: solid;
   text-decoration-color: rgba(170, 170, 170, 0.575);
