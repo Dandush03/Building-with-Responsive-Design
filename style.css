@@ -505,6 +505,11 @@ ul {
  *    :......::::..:::::..:::.......::::.......:::..:::::::::::::::::::......::
  */
 
+.main-title-1{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
 .left-img {
   padding: 8px;
   overflow: hidden;
@@ -649,6 +654,8 @@ ul {
 
 .right-article-heading {
   font-size: xx-large;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
 }
 
 .right-article-links {
