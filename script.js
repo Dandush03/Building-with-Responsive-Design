@@ -14,7 +14,7 @@ function scrolling() {
 }
 
 function resizes() {
-  if(window.innerWidth < 768 || document.body.scrollTop > 70 ){
+  if(window.innerWidth <= 768 || document.documentElement.scrollTop > 70){
     document.getElementById("tp-nv").style.display = "none";
   }else{
     if (document.body.scrollTop < 70 ) {
