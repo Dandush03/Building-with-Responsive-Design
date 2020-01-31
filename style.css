@@ -1033,10 +1033,6 @@ ul {
   color: white;
 }
 
-.news-section-img-content a:hover {
-  border-bottom: 1px solid #555;
-}
-
 .news-section-latest {
   display: flex;
   background-color: rgba(255, 68, 34, 0.06);
@@ -1430,4 +1426,8 @@ F O O T E R
   padding: 15px 10px;
   display: block;
   border-radius: 50%;
+}
+
+.news-section-img-content a:hover {
+  border-bottom: 1px solid #555;
 }
