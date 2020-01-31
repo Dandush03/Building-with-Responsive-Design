@@ -1324,6 +1324,7 @@ F O O T E R
 .footer-social li {
   width: auto;
   padding: 0 8px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .footer-social a {
