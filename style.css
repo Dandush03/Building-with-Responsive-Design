@@ -1363,6 +1363,16 @@ F O O T E R
  *    ..:::::..:::......::::::..:::::....:::.......:::..::::..:::......:::
  */
 
+.news-section-list li span a {
+  position: relative;
+  left: 8px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 200;
+  color: #aaa;
+  text-decoration: none;
+}
+
 .tnw-logo:hover {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/home-1.gif);
 }
@@ -1415,14 +1425,4 @@ F O O T E R
 
 .news-section-img-content a:hover {
   border-bottom: 1px solid #555;
-}
-
-.news-section-list li span a {
-  position: relative;
-  left: 8px;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 13px;
-  font-weight: 200;
-  color: #aaa;
-  text-decoration: none;
 }
