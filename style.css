@@ -35,8 +35,8 @@ ul {
   [class*="col-"] {
     float: left;
   }
-  
-  .news-section-img{
+
+  .news-section-img {
     max-height: 100vh;
   }
 
