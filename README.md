@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://rawcdn.githack.com/Dandush03/Building-with-Responsive-Design/aafa34b8c42286d73cb82f7211d968b7e89007f1/index.html)
 
 
 ## Getting Started
