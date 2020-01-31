@@ -782,7 +782,7 @@ ul {
 .secondary-article-details {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  font-size:  0.8em;
+  font-size: 0.8em;
   color: #aaa;
 }
 
@@ -881,7 +881,7 @@ ul {
   opacity: 0.5;
   font-family: 'Ropa Sans', sans-serif;
   text-transform: uppercase;
-  letter-spacing: .04em;
+  letter-spacing: 0.04em;
   font-weight: 500;
 }
 
@@ -1083,16 +1083,6 @@ ul {
 
 .latest-title-container {
   padding: 10px;
-}
-
-.news-section-list li span a {
-  position: relative;
-  left: 8px;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 13px;
-  font-weight: 200;
-  color: #aaa;
-  text-decoration: none;
 }
 
 .news-section-list li {
@@ -1388,6 +1378,16 @@ F O O T E R
 
 .fndng-rd-tp a:hover {
   color: black;
+}
+
+.news-section-list li span a {
+  position: relative;
+  left: 8px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 200;
+  color: #aaa;
+  text-decoration: none;
 }
 
 .secondary-heading a:hover,
