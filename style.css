@@ -505,7 +505,7 @@ ul {
  *    :......::::..:::::..:::.......::::.......:::..:::::::::::::::::::......::
  */
 
-.main-title-1{
+.main-title-1 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
 }
@@ -1186,7 +1186,7 @@ ul {
   font-weight: 400;
 }
 
-.latest-deals-header a{
+.latest-deals-header a {
   color: #f42;
   text-decoration: none;
 }
@@ -1429,6 +1429,11 @@ F O O T E R
   border-bottom: 1px solid #555;
 }
 
+.latest-deals-header a:hover {
+  color: black;
+  text-decoration: none;
+}
+
 .footer-social-2 li a:hover {
   border: #333 1px solid;
   background-color: #131313;
@@ -1437,9 +1442,4 @@ F O O T E R
   padding: 15px 10px;
   display: block;
   border-radius: 50%;
-}
-
-.latest-deals-header a:hover{
-  color: black;
-  text-decoration: none;
 }
