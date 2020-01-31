@@ -20,11 +20,9 @@ article>h6 {
 }
 
 ul {
-  margin-block-start: 0;
-  margin-block-end: 0;
-  margin-inline-start: 0;
-  margin-inline-end: 0;
-  padding-inline-start: 15px;
+  padding: 0;
+  margin: 0;
+  padding-left: 15px;
   text-align: center;
 }
 
@@ -36,6 +34,10 @@ ul {
 @media only screen and (min-width: 0) and (max-width: 768px) {
   [class*="col-"] {
     float: left;
+  }
+  
+  .news-section-img{
+    max-height: 100vh;
   }
 
   .lg-mn-h {
@@ -832,7 +834,7 @@ ul {
 .fndng-rd-ul {
   display: flex;
   list-style-type: none;
-  padding-inline-start: 0;
+  padding-left: 0;
   font-size: 16px;
   font-weight: 400;
 }
