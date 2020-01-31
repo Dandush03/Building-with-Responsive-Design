@@ -9,32 +9,325 @@
  *    :......::::........::..::::..::........::..:::::..::..:::::..::........::
  */
 
-*{
-  box-sizing: border-box;
-  width: 100%;
-  height: 100%;
+body {
+  margin: 0;
+  padding: 0;
 }
 
- @media only screen{
-   [class*="col-"]{
-     float: left;
-   }
+section>h6,
+article>h6 {
+  display: none;
+}
 
-  .col-1 {width: 8.33%;}
-  .col-2 {width: 16.66%;}
-  .col-3 {width: 25%;}
-  .col-4 {width: 33.33%;}
-  .col-5 {width: 41.66%;}
-  .col-6 {width: 50%;}
-  .col-7 {width: 58.33%;}
-  .col-8 {width: 66.66%;}
-  .col-9 {width: 75%;}
-  .col-10 {width: 83.33%;}
-  .col-11 {width: 91.66%;}
-  .col-12 {width: 100%;}
- }
+ul {
+  padding: 0;
+  margin: 0;
+  padding-left: 15px;
+  text-align: center;
+}
 
- /***
+* {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+@media only screen and (min-width: 0) and (max-width: 768px) {
+  [class*="col-"] {
+    float: left;
+  }
+
+  .news-section-img {
+    max-height: 100vh;
+  }
+
+  .lg-mn-h {
+    height: 40px !important;
+  }
+
+  .col-xs-0 {
+    display: none;
+  }
+
+  .col-xs-1 {
+    width: 8.33%;
+  }
+
+  .col-xs-2 {
+    width: 16.66%;
+  }
+
+  .col-xs-3 {
+    width: 25%;
+  }
+
+  .col-xs-4 {
+    width: 33.33%;
+  }
+
+  .col-xs-5 {
+    width: 41.66%;
+  }
+
+  .col-xs-6 {
+    width: 50%;
+  }
+
+  .col-xs-7 {
+    width: 58.33%;
+  }
+
+  .col-xs-8 {
+    width: 66.66%;
+  }
+
+  .col-xs-9 {
+    width: 75%;
+  }
+
+  .col-xs-10 {
+    width: 83.33%;
+  }
+
+  .col-xs-11 {
+    width: 91.66%;
+  }
+
+  .col-xs-12 {
+    width: 100%;
+  }
+
+  .col-xs-square {
+    width: 80px;
+  }
+
+  .col-xs-article {
+    width: calc(100% - 80px);
+  }
+
+  .row-xs-1 {
+    height: 15vh;
+  }
+
+  .row-xs-2 {
+    height: 30vh;
+  }
+
+  .row-xs-img-1 {
+    height: 80px;
+  }
+
+  .row-xs-img-2 {
+    height: 500px;
+  }
+
+  .row-xs-art {
+    height: 100px;
+  }
+
+  .fndng-rd-ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .fndng-rd-ul .no-border-xs {
+    border-left: none;
+  }
+
+  .lst-dl-art-hdr {
+    padding: 0 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  [class*="col-"] {
+    float: left;
+  }
+
+  .col-s-0 {
+    display: none;
+  }
+
+  .src-nv .col-s-0 {
+    display: none;
+  }
+
+  .col-s-1 {
+    width: 8.33%;
+  }
+
+  .col-s-2 {
+    width: 16.66%;
+  }
+
+  .col-s-3 {
+    width: 25%;
+  }
+
+  .col-s-4 {
+    width: 33.33%;
+  }
+
+  .col-s-5 {
+    width: 41.66%;
+  }
+
+  .col-s-6 {
+    width: 50%;
+  }
+
+  .col-s-7 {
+    width: 58.33%;
+  }
+
+  .col-s-8 {
+    width: 66.66%;
+  }
+
+  .col-s-9 {
+    width: 75%;
+  }
+
+  .col-s-10 {
+    width: 83.33%;
+  }
+
+  .col-s-11 {
+    width: 91.66%;
+  }
+
+  .col-s-12 {
+    width: 100%;
+  }
+
+  .row-s-1 {
+    height: 50%;
+  }
+
+  .row-s-2 {
+    height: 100%;
+  }
+
+  .height-s {
+    height: 60vh;
+  }
+
+  .row-s-img-1 {
+    height: 160px;
+  }
+
+  .row-s-img-2 {
+    height: 330px;
+  }
+
+  .row-s-art {
+    height: 300px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  [class*="col-"] {
+    float: left;
+  }
+
+  .col-0 {
+    display: none;
+  }
+
+  .col-1 {
+    width: 8.33%;
+  }
+
+  .col-2 {
+    width: 16.66%;
+  }
+
+  .col-3 {
+    width: 25%;
+  }
+
+  .col-4 {
+    width: 33.33%;
+  }
+
+  .col-5 {
+    width: 41.66%;
+  }
+
+  .col-6 {
+    width: 50%;
+  }
+
+  .col-7 {
+    width: 58.33%;
+  }
+
+  .col-8 {
+    width: 66.66%;
+  }
+
+  .col-9 {
+    width: 75%;
+  }
+
+  .col-10 {
+    width: 83.33%;
+  }
+
+  .col-11 {
+    width: 91.66%;
+  }
+
+  .col-12 {
+    width: 100%;
+  }
+
+  .row-1 {
+    height: 50%;
+  }
+
+  .row-2 {
+    height: 100%;
+  }
+
+  .height-max {
+    height: 75vh;
+    max-height: 560px;
+  }
+
+  .row-img-1 {
+    height: 160px;
+  }
+
+  .row-img-2 {
+    height: 290px;
+  }
+
+  .row-art {
+    height: 300px;
+  }
+
+  .fndng-rd-ul {
+    justify-content: flex-end;
+  }
+
+  .fndng-rd-tp {
+    display: flex;
+  }
+}
+
+.flt-rght {
+  float: right;
+}
+
+.right-align {
+  text-align: right;
+}
+
+.no-border {
+  border-left: none !important;
+}
+
+/*
  *    '##:::###::::'###::::'##::::'##::::::::::'########:::::'###::::'########::
  *    ####::###:::'#####:::###::::###::::::::::###....###:::'#####:::###....###:
  *    #####:###::'##:.###::###::::###::::::::::###::::###::'##:.###::###::::###:
@@ -45,7 +338,165 @@
  *    ..::::..::..:::::..:::::...::::::::::::::........:::..:::::..::..:::::..::
  */
 
- /***
+.mn-1 {
+  background-color: black;
+  color: lightgray;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-size: 13px;
+  height: 30px;
+}
+
+.lft-mn-1 {
+  width: 400px;
+  height: 100%;
+}
+
+.lft-mn-1 ul {
+  display: table;
+  height: 100%;
+}
+
+.lft-mn-1 li {
+  display: table-cell;
+  width: fit-content;
+  vertical-align: middle;
+}
+
+.lft-mn-1 svg {
+  display: none;
+}
+
+.rght-mn-1 {
+  float: right;
+  width: 300px;
+  height: 100%;
+}
+
+.rght-mn-1 ul {
+  height: 100%;
+  display: table;
+}
+
+.rght-mn-1 li {
+  display: table-cell;
+  width: fit-content;
+  vertical-align: middle;
+}
+
+.tnw-logo {
+  height: 70px;
+  background: linear-gradient(to bottom right, #c09, #f42 85%);
+  float: left;
+}
+
+.tnw-logo a,
+.tnw-logo svg {
+  height: 100%;
+}
+
+.src-div {
+  width: 75px;
+}
+
+/***
+ *    '##:::###::::'###::::'##::::'##::::::::::'########:::::'###::::'########::::::::::::'#######::
+ *    ####::###:::'#####:::###::::###::::::::::###....###:::'#####:::###....###::::::::::'##....###:
+ *    #####:###::'##:.###::###::::###::::::::::###::::###::'##:.###::###::::###::::::::::..:::::###:
+ *    #########:'##:::.###:###::::###:'#######:#########::'##:::.###:#########::'#######::'#######::
+ *    ###.#####:##########:.###::###::........:###....###:##########:###..###:::........:'##::::::::
+ *    ###:.####:###....###::.######::::::::::::###::::###:###....###:###::.###:::::::::::###::::::::
+ *    ###::.###:###::::###:::.####:::::::::::::#########::###::::###:###:::.###::::::::::##########:
+ *    ..::::..::..:::::..:::::...::::::::::::::........:::..:::::..::..:::::..:::::::::::.........::
+ */
+
+.lft-mn-1 .mn-2-svg {
+  display: unset;
+  height: 100%;
+}
+
+.rght-mn-2 {
+  width: 500px;
+}
+
+.mn-2 {
+  background-color: white;
+  color: gray;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-size: 13px;
+  padding: 0;
+  height: 40px;
+}
+
+.mn-2 ul {
+  height: 40px;
+}
+
+.mn-3 {
+  background-color: rgb(255, 221, 51);
+  height: 30px;
+  display: table;
+}
+
+.mn-3>div {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.mn-3 span {
+  padding-left: 15px;
+}
+
+.fxd-nav {
+  position: fixed;
+  z-index: 3;
+}
+
+.fxd-nav ul {
+  float: left;
+  display: table;
+}
+
+.src-nv ul {
+  width: 75px;
+  float: right;
+  display: flex;
+}
+
+.src-nv li {
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  width: 30px;
+  float: left;
+}
+
+.src-nv a {
+  display: grid;
+  border-left: solid gray 1px;
+  height: 30px;
+}
+
+.icon-1 {
+  margin: auto;
+  width: 16px;
+  height: 16px;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783);
+  background-origin: padding-box;
+  background-position-x: -832px;
+  background-position-y: -832px;
+  background-size: 1296px 1296px;
+}
+
+.icon-2 {
+  width: 28px;
+  height: 28px;
+  fill: gray;
+  margin: auto;
+}
+
+/***
  *    :'######:::'########:::'#######::'##::::'##:'########::::::::::::::'##:::
  *    '##...###::###....###:'##....###:###::::###:###....###:::::::::::'####:::
  *    ###:::..:::###::::###:###::::###:###::::###:###::::###:::::::::::..###:::
@@ -55,3 +506,943 @@
  *    .#######:::###:::.###:.########::.########::###::::::::::::::::::'######:
  *    :......::::..:::::..:::.......::::.......:::..:::::::::::::::::::......::
  */
+
+.main-title-1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+.left-img {
+  padding: 8px;
+  overflow: hidden;
+}
+
+.right-img {
+  padding: 8px;
+}
+
+.main-articles {
+  margin-top: 100px;
+  padding: 8px;
+}
+
+.article-1 {
+  width: 100%;
+  height: 100%;
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/artificial-intelligence-hed-796x417.jpg');
+  background-size: 100% auto;
+  background-position-y: center;
+  background-color: red;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.rtcl-cntnr {
+  height: 100%;
+  align-items: center;
+  padding: 10px;
+  color: white;
+  position: relative;
+}
+
+.rtcl-cntnr svg {
+  position: absolute;
+  z-index: 1;
+}
+
+.rtcl-cntnr h5 {
+  margin: 0;
+  padding: 0;
+  font-size: 56px;
+}
+
+.rtcl-cntnr a {
+  color: white;
+  text-decoration: none;
+}
+
+.top-rtcl-cntnr {
+  position: absolute;
+}
+
+.top-rtcl-cntnr div {
+  padding-right: 5%;
+}
+
+.btm-rtcl-cntnr {
+  display: flex;
+  align-items: flex-end;
+  height: 100%;
+}
+
+.i-time {
+  margin: auto;
+  width: 16px;
+  height: 16px;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783);
+  background-origin: padding-box;
+  background-position-x: -128px;
+  background-position-y: -128px;
+  background-size: 1296px 1296px;
+}
+
+.i-share {
+  margin: auto;
+  width: 16px;
+  height: 16px;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783);
+  background-origin: padding-box;
+  background-position-x: -880px;
+  background-position-y: -880px;
+  background-size: 1296px 1296px;
+}
+
+.span-icon {
+  display: inline-flex;
+  width: 20px;
+}
+
+.article-1 span {
+  bottom: 0;
+  color: white;
+}
+
+.grdnt-red {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(160deg, rgba(255, 0, 0, 1) 0%, rgba(200, 201, 195, 0) 100%), linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(200, 201, 195, 0) 100%);
+}
+
+.grdnt-blk {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(200, 201, 195, 0) 100%);
+}
+
+.article-2 {
+  height: 100%;
+  width: 100%;
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/Untitled-design101-796x417.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  overflow: hidden;
+}
+
+.article-3 {
+  height: 100%;
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/google-play-store-malware-joker-796x417.jpg');
+  background-size: 100% auto;
+  background-position-y: center;
+  overflow: hidden;
+}
+
+.right-article-container {
+  width: 100%;
+  height: 100%;
+  color: white;
+  display: flex;
+  padding: 10px;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.right-article-container a {
+  text-decoration: none;
+  color: white;
+}
+
+.right-article-heading {
+  font-size: xx-large;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+.right-article-links {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.right-article-author {
+  width: auto;
+}
+
+.right-article-publication-date {
+  width: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.right-article-share {
+  width: auto;
+}
+
+.rtcl-tp-nf {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.rtcl-tp-nf span,
+.date {
+  width: auto;
+  padding-right: 6px;
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 90%;
+}
+
+.rtcl-tp-nf a {
+  color: rgba(255, 255, 255, 0.3);
+  text-decoration: none;
+}
+
+.fndng-rd-tp a {
+  color: #f42;
+  text-decoration: none;
+}
+
+.small-txt {
+  font-size: 80%;
+}
+
+/***
+ *    :'######:::'########:::'#######::'##::::'##:'########::::::::::::'#######::
+ *    '##...###::###....###:'##....###:###::::###:###....###::::::::::'##....###:
+ *    ###:::..:::###::::###:###::::###:###::::###:###::::###::::::::::..:::::###:
+ *    ###::'####:#########::###::::###:###::::###:#########::'#######::'#######::
+ *    ###:::###::###..###:::###::::###:###::::###:###.....:::........:'##::::::::
+ *    ###:::###::###::.###::###::::###:###::::###:###:::::::::::::::::###::::::::
+ *    .#######:::###:::.###:.########::.########::###:::::::::::::::::##########:
+ *    :......::::..:::::..:::.......::::.......:::..::::::::::::::::::.........::
+ */
+
+.secondary-articles-container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.secondary-article {
+  padding: 10px;
+  overflow: hidden;
+}
+
+.secondary-article-img {
+  background-position: center;
+  background-size: auto 100%;
+}
+
+.sa-img-1 {
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/tesla-stock-billion-dollar-car-maker-trade-hard-fork-finance-nasdaq-TSLA-480x270.png');
+}
+
+.sa-img-2 {
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/facebook-516x270.png');
+}
+
+.sa-img-3 {
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Copy-of-Copy-of-Copy-of-Copy-of-...-3-516x270.png');
+}
+
+.sa-img-4 {
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/kDsg9Ra-540x270.jpg');
+}
+
+.sa-img-5 {
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/sale_25674_primary_image_wide-540x270.jpg');
+}
+
+.sa-img-6 {
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/apple-tv-airplay-2-money-header-516x270.png');
+}
+
+.sa-img-7 {
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/paris-museums-15000-images-online-copyright-516x270.jpg');
+}
+
+.sa-img-8 {
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/image-1-480x270.png');
+}
+
+.secondary-article-content {
+  display: flex;
+  flex-direction: column;
+  padding: 4px;
+}
+
+.secondary-heading {
+  height: 200px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  font-size: 1.7em;
+}
+
+.secondary-article-title {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  font-size: 0.9em;
+}
+
+.secondary-article-details {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 0.8em;
+  color: #aaa;
+}
+
+.secondary-heading a,
+.news-section-heading a {
+  color: #f42;
+  text-decoration: none;
+}
+
+.secondary-article-title a {
+  color: black;
+  text-decoration: none;
+}
+
+/***
+ *    :'######:::'########:::'#######::'##::::'##:'########::::::::::::'#######::
+ *    '##...###::###....###:'##....###:###::::###:###....###::::::::::'##....###:
+ *    ###:::..:::###::::###:###::::###:###::::###:###::::###::::::::::..:::::###:
+ *    ###::'####:#########::###::::###:###::::###:#########::'#######::'#######::
+ *    ###:::###::###..###:::###::::###:###::::###:###.....:::........::......###:
+ *    ###:::###::###::.###::###::::###:###::::###:###:::::::::::::::::'##::::###:
+ *    .#######:::###:::.###:.########::.########::###:::::::::::::::::.########::
+ *    :......::::..:::::..:::.......::::.......:::..:::::::::::::::::::.......:::
+ */
+
+.fndng-rd-wrpr {
+  margin: auto;
+  float: unset;
+  max-width: 1200px;
+}
+
+.fndng-rd-tp {
+  align-items: center;
+  color: #f42;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.fndng-rd-ul {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.fndng-rd-ul li {
+  width: auto;
+  padding: 5px 10px 5px 10px;
+  border-left: solid 1px #f42;
+}
+
+.top-funding {
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  padding: 10px 15px 10px 0;
+}
+
+.square-container {
+  text-decoration: none;
+  position: relative;
+}
+
+.square-container h4 {
+  position: inherit;
+  float: unset;
+  padding: 10px 0 10px 80px;
+  margin: 0;
+  background-color: rgb(255, 68, 34);
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.square {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  padding: 10px;
+  z-index: 2;
+}
+
+.top-funding-header {
+  background-color: rgba(255, 68, 34, 0.08);
+  padding: 5px 0;
+}
+
+.top-funding-header h4 {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.top-funding-header h5 {
+  font-size: 12px;
+  opacity: 0.5;
+  font-family: 'Ropa Sans', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+}
+
+.top-funding-header h4,
+.top-funding-header h5 {
+  padding: 0 0 0 80px;
+  margin: 0;
+}
+
+.top-funding-container {
+  background-color: rgba(255, 68, 34, 0.03);
+}
+
+.i-tag {
+  margin: auto;
+  width: 16px;
+  height: 16px;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783);
+  background-origin: padding-box;
+  background-position-x: 320px;
+  background-position-y: 320px;
+  background-size: 1296px 1296px;
+}
+
+.i-case {
+  margin: auto;
+  width: 16px;
+  height: 16px;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783);
+  background-origin: padding-box;
+  background-position-x: -48px;
+  background-position-y: -48px;
+  background-size: 1296px 1296px;
+}
+
+.top-funding-container a {
+  display: flex;
+  padding: 5px;
+  align-items: center;
+  justify-content: flex-start;
+  text-decoration: none;
+  color: rgb(85, 85, 85);
+  font-weight: 400;
+}
+
+.top-funding-container span {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.top-funding hr {
+  border: rgba(255, 68, 34, 0.3) solid 1px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.btm-funding-container {
+  background-color: rgba(255, 68, 34, 0.03);
+  padding: 10px;
+  font-size: 13px;
+}
+
+.btm-funding-container ul {
+  list-style-type: none;
+}
+
+.btm-funding-container li {
+  color: rgb(85, 85, 85);
+  text-align: left;
+}
+
+.btm-funding-container a {
+  text-decoration: none;
+  color: rgb(170, 170, 170);
+}
+
+/***
+ *    :'######:::'########:::'#######::'##::::'##:'########:::::::::::'##::::::::
+ *    '##...###::###....###:'##....###:###::::###:###....###::::::::::###:::'##::
+ *    ###:::..:::###::::###:###::::###:###::::###:###::::###::::::::::###:::###::
+ *    ###::'####:#########::###::::###:###::::###:#########::'#######:###:::###::
+ *    ###:::###::###..###:::###::::###:###::::###:###.....:::........:##########:
+ *    ###:::###::###::.###::###::::###:###::::###:###:::::::::::::::::......###::
+ *    .#######:::###:::.###:.########::.########::###:::::::::::::::::::::::###::
+ *    :......::::..:::::..:::.......::::.......:::..::::::::::::::::::::::::..:::
+ */
+
+.news-section-container {
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.news-section {
+  padding: 10px;
+  overflow: hidden;
+}
+
+.news-section-img {
+  background-position: center;
+  background-size: auto 100%;
+}
+
+.ns-img-1 {
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/06/moviepass-368x276.png');
+}
+
+.ns-img-2 {
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Apple-AirPods-Pro-368x276.jpg');
+}
+
+.ns-img-3 {
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-...-2-1-368x276.png');
+}
+
+.ns-img-4 {
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/GodfallTeaser04-368x276.png');
+}
+
+.ns-img-5 {
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/00-Cover-–-DataReportal-Digital-2020-Global-Digital-Overview-Slide--368x276.png');
+}
+
+.ns-img-6 {
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/paris-museums-15000-images-online-copyright-368x276.jpg');
+}
+
+.ns-img-7 {
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Amazon-Prime-Fresh-delivery-hed-368x276.jpg');
+}
+
+.ns-img-8 {
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/Google-Android-Developer-Options-368x276.jpg');
+}
+
+.news-section-img-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: white;
+  padding: 10px;
+}
+
+.news-section-img-content a {
+  text-decoration: none;
+  color: white;
+}
+
+.news-section-latest {
+  display: flex;
+  background-color: rgba(255, 68, 34, 0.06);
+}
+
+.latest-img {
+  width: 90px;
+  height: 80px;
+  background-position: center;
+  background-size: auto 100%;
+}
+
+.nsli-img-1 {
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Google-translate.png');
+}
+
+.nsli-img-2 {
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Snag_400158cd.png');
+}
+
+.nsli-img-3 {
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/04/Mark-Zuckerberg-Facebook.png');
+}
+
+.nsli-img-4 {
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/instagram-photoshop-hide-misinformation.jpg');
+}
+
+.nsli-img-5 {
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Untitled-design47.png');
+}
+
+.nsli-img-6 {
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/cambodia.jpg');
+}
+
+.nsli-img-7 {
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Press-Conference-with-Eric-Esrailian-Alexis-Ohanian-Hakob-Arshakyan-Yervant-Zorian-and-Serj-Tankian-hed.jpg');
+}
+
+.nsli-img-8 {
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Snag_2267466a.png');
+}
+
+.latest-title-container {
+  padding: 10px;
+}
+
+.news-section-list li {
+  margin-bottom: 20px;
+}
+
+.news-section-list ul {
+  text-align: unset;
+  margin-left: -15px;
+  list-style: none;
+}
+
+.news-section-list li::before {
+  content: "•";
+  color: red;
+}
+
+.news-section-heading {
+  height: 80px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  font-size: 1.7em;
+}
+
+.img-content-mostpop {
+  font-family: 'PT Sans Narrow', 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.img-content-title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.img-content-details {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 200;
+  color: #aaa;
+}
+
+.latest-title-container,
+.latest-title-container a {
+  color: rgb(255, 68, 34);
+  text-decoration: none;
+}
+
+.latest-heading {
+  font-family: 'PT Sans Narrow', 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 200;
+}
+
+.latest-title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+/***
+ *    :'######:::'########:::'#######::'##::::'##:'########:::::::::::'########:
+ *    '##...###::###....###:'##....###:###::::###:###....###::::::::::###.....::
+ *    ###:::..:::###::::###:###::::###:###::::###:###::::###::::::::::###:::::::
+ *    ###::'####:#########::###::::###:###::::###:#########::'#######:########::
+ *    ###:::###::###..###:::###::::###:###::::###:###.....:::........:......###:
+ *    ###:::###::###::.###::###::::###:###::::###:###:::::::::::::::::'##:::###:
+ *    .#######:::###:::.###:.########::.########::###:::::::::::::::::.#######::
+ *    :......::::..:::::..:::.......::::.......:::..:::::::::::::::::::......:::
+ */
+
+.latest-deals {
+  margin-bottom: 10vh;
+}
+
+.latest-deals-header {
+  max-width: 1200px;
+  margin: auto;
+  float: unset;
+  color: #f42;
+  font-family: 'Open Sans', sans-serif;
+  align-items: center;
+  display: flex;
+}
+
+.latest-deals-header h4 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.latest-deals-header h5 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.latest-deals-header a {
+  color: #f42;
+  text-decoration: none;
+}
+
+.latest-deals-header h4+h5 {
+  padding: 0;
+  margin: 0;
+}
+
+.lastes-deal-article-section {
+  max-width: 1200px;
+  margin: auto;
+  float: unset;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.lst-dl-art-hdr {
+  position: relative;
+}
+
+.lst-dl-promo-bckgrn,
+.lst-dl-promo-bckgrn svg {
+  position: absolute;
+  right: 0;
+}
+
+.lst-dl-promo-span {
+  position: absolute;
+  right: 0;
+  width: 25.33%;
+  transform: rotate(45deg);
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  height: 29.33%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.lst-dl-title h4 {
+  padding: 2px;
+  margin: 0;
+}
+
+.lst-dl-title a {
+  color: black;
+  text-decoration: none;
+}
+
+.orgnl-price {
+  text-decoration: line-through;
+  font-size: 12px;
+  margin-right: 4px;
+  color: rgb(170, 170, 170);
+}
+
+.deal-price {
+  color: rgb(85, 85, 85);
+  font-size: 14px;
+}
+
+.lastes-deal-article {
+  padding: 5px;
+}
+
+/**************************
+
+F O O T E R
+
+**************************/
+
+.footer-container {
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  color: white;
+  float: left;
+}
+
+.footer-top {
+  background-color: #131313;
+  padding-top: 80px;
+  padding-bottom: 0;
+}
+
+.social-icon {
+  background-color: transparent;
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783);
+  background-size: 1296px 1296px;
+  width: 16px;
+  height: 16px;
+}
+
+.footer-fb {
+  background-position: -272px -272px;
+}
+
+.footer-ig {
+  background-position: -416px -416px;
+}
+
+.footer-mail {
+  background-position: -576px -576px;
+}
+
+.footer-pt {
+  background-position: -672px -672px;
+}
+
+.footer-tw {
+  background-position: -1024px -1024px;
+}
+
+.footer-yt {
+  background-position: -1280px -1280px;
+}
+
+.footer-fd {
+  background-position: -816px -816px;
+}
+
+.footer-social {
+  margin: auto;
+}
+
+.footer-social ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding-bottom: 60px;
+}
+
+.footer-social li {
+  width: auto;
+  padding: 0 8px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.footer-social a {
+  text-decoration: none;
+  color: rgb(170, 170, 170);
+}
+
+.footer-social-2 li a {
+  border: #333 1px solid;
+  background-color: #333;
+  width: 50px;
+  height: 50px;
+  padding: 15px 10px;
+  display: block;
+  border-radius: 50%;
+}
+
+.footer-credits {
+  padding: 5vh;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(170, 170, 170);
+}
+
+.footer-credits svg {
+  width: 45px;
+}
+
+.heart {
+  color: red;
+}
+
+.creator {
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/***
+ *    :::'###:::::'######::'########:'####::'#######::'##:::###::'######::
+ *    ::'#####:::'##...###:...###..::.###::'##....###:####::###:'##...###:
+ *    :'##:.###::###:::..:::::###:::::###::###::::###:#####:###:###:::..::
+ *    '##:::.###:###::::::::::###:::::###::###::::###:#########:.#######::
+ *    ##########:###::::::::::###:::::###::###::::###:###.#####::.....###:
+ *    ###....###:###:::###::::###:::::###::###::::###:###:.####:'##:::###:
+ *    ###::::###:.#######:::::###::::'####:.########::###::.###:.#######::
+ *    ..:::::..:::......::::::..:::::....:::.......:::..::::..:::......:::
+ */
+
+.news-section-list li span a {
+  position: relative;
+  left: 8px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 200;
+  color: #aaa;
+  text-decoration: none;
+}
+
+.tnw-logo:hover {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/home-1.gif);
+}
+
+.fndng-rd-tp a:hover {
+  color: black;
+}
+
+.secondary-heading a:hover,
+.news-section-heading a:hover {
+  color: black;
+}
+
+.secondary-article-title a:hover {
+  color: #f42;
+  text-decoration: none;
+}
+
+.rtcl-tp-nf a:hover {
+  color: white;
+}
+
+.top-funding-container a:hover {
+  color: black;
+}
+
+.lst-dl-title a:hover {
+  color: #f42;
+  text-decoration-style: solid;
+  text-decoration-color: rgba(170, 170, 170, 0.575);
+}
+
+.footer-social a:hover {
+  color: white;
+}
+
+.news-section-list a:hover {
+  color: #555;
+}
+
+.news-section-img-content a:hover {
+  border-bottom: 1px solid #555;
+}
+
+.latest-deals-header a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.footer-social-2 li a:hover {
+  border: #333 1px solid;
+  background-color: #131313;
+  width: 50px;
+  height: 50px;
+  padding: 15px 10px;
+  display: block;
+  border-radius: 50%;
+}
