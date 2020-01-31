@@ -131,6 +131,10 @@ ul {
     border-left: none;
   }
 
+  .lst-dl-art-hdr{
+    padding: 0 10px;
+  }
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -1188,7 +1192,7 @@ ul {
   color: #f42;
 }
 
-.lastes-deal-article {
+.lastes-deal-article-section {
   max-width: 1200px;
   margin: auto;
   float: unset;
@@ -1230,6 +1234,21 @@ ul {
   text-decoration: none;
 }
 
+.orgnl-price{
+  text-decoration: line-through;
+  font-size: 12px;
+  margin-right: 4px;
+  color:rgb(170, 170, 170);
+}
+
+.deal-price{
+  color: rgb(85, 85, 85);
+  font-size: 14px;
+}
+
+.lastes-deal-article{
+  padding: 5px;
+}
 
 /**************************
 
