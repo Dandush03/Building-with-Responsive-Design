@@ -8,7 +8,7 @@
 
 - HTML5/CSS3
 - Visual Studio Code
-- The Stickled Linter
+- The Stickler Linter
 - Nu HTML Validator
 
 ## Live Demo
