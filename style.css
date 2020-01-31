@@ -1144,6 +1144,16 @@ ul {
   font-weight: 800;
 }
 
+.news-section-list li span a {
+  position: relative;
+  left: 8px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 200;
+  color: #aaa;
+  text-decoration: none;
+}
+
 /***
  *    :'######:::'########:::'#######::'##::::'##:'########:::::::::::'########:
  *    '##...###::###....###:'##....###:###::::###:###....###::::::::::###.....::
@@ -1169,11 +1179,6 @@ ul {
   display: flex;
 }
 
-.latest-deals-header h4+h5 {
-  padding: 0;
-  margin: 0;
-}
-
 .latest-deals-header h4 {
   font-size: 28px;
   font-weight: bold;
@@ -1182,6 +1187,11 @@ ul {
 .latest-deals-header h5 {
   font-size: 16px;
   font-weight: 400;
+}
+
+.latest-deals-header h4+h5 {
+  padding: 0;
+  margin: 0;
 }
 
 .latest-deals-header a {
@@ -1303,16 +1313,6 @@ F O O T E R
   background-position: -816px -816px;
 }
 
-.footer-social-2 li a {
-  border: #333 1px solid;
-  background-color: #333;
-  width: 50px;
-  height: 50px;
-  padding: 15px 10px;
-  display: block;
-  border-radius: 50%;
-}
-
 .footer-social {
   margin: auto;
 }
@@ -1332,6 +1332,16 @@ F O O T E R
 .footer-social a {
   text-decoration: none;
   color: rgb(170, 170, 170);
+}
+
+.footer-social-2 li a {
+  border: #333 1px solid;
+  background-color: #333;
+  width: 50px;
+  height: 50px;
+  padding: 15px 10px;
+  display: block;
+  border-radius: 50%;
 }
 
 .footer-credits {
@@ -1374,16 +1384,6 @@ F O O T E R
 
 .fndng-rd-tp a:hover {
   color: black;
-}
-
-.news-section-list li span a {
-  position: relative;
-  left: 8px;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 13px;
-  font-weight: 200;
-  color: #aaa;
-  text-decoration: none;
 }
 
 .secondary-heading a:hover,
