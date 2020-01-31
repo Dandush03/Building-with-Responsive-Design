@@ -1264,6 +1264,13 @@ F O O T E R
   float: left;
 }
 
+.footer-top{
+  background-color: #131313;
+}
+
+.footer-fb{
+  background: transparent, url('https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783')
+}
 
 
 /***
