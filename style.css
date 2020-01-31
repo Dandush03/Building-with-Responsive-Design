@@ -774,7 +774,7 @@ ul {
   color: #aaa;
 }
 
-.secondary-heading a {
+.secondary-heading a, .news-section-heading a {
   color: #f42;
   text-decoration: none;
 }
@@ -1016,6 +1016,15 @@ ul {
   padding: 10px;
 }
 
+.news-section-img-content a{
+  text-decoration: none;
+  color: white;
+}
+
+.news-section-img-content a:hover{
+  border-bottom: 1px solid #555;
+}
+
 .news-section-latest {
   display: flex;
   background-color: rgba(255,68,34,.06);
@@ -1064,17 +1073,79 @@ ul {
   padding: 10px;
 }
 
-.news-section-list li span {
+.news-section-list li span a{
   position: relative;
-  left: -4px;
+  left: 8px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 200;
+  color: #aaa;
+  text-decoration: none;
+}
+
+.news-section-list a:hover{
+  color: #555;
+}
+
+.news-section-list li{
+  margin-bottom: 20px;
 }
 
 .news-section-list ul{
-  text-align: left;
+  text-align: unset;
+  margin-left: -15px;
+  list-style: none
+}
+.news-section-list li::before{
+  content: "•";
+  color: red;
 }
 
-.news-section-list li::before{
+.news-section-heading{
+  height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 1.7em;
+}
+
+.img-content-mostpop{
+  font-family: 'PT Sans Narrow','Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.img-content-title{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.img-content-details{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 200;
+  color: #aaa;
+}
+
+.latest-title-container, .latest-title-container a {
   color:  rgb(255, 68, 34);
+  text-decoration: none;
+}
+
+.latest-heading{
+  font-family: 'PT Sans Narrow','Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 200;
+}
+
+.latest-title{  
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 800;
 }
 
 /***
@@ -1159,6 +1230,23 @@ ul {
   text-decoration: none;
 }
 
+
+/**************************
+
+F O O T E R
+
+**************************/
+
+.footer-container{
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  color: white;
+  float: left;
+}
+
+
+
 /***
  *    :::'###:::::'######::'########:'####::'#######::'##:::###::'######::
  *    ::'#####:::'##...###:...###..::.###::'##....###:####::###:'##...###:
@@ -1178,7 +1266,7 @@ ul {
   color: black;
 }
 
-.secondary-heading a:hover {
+.secondary-heading a:hover, .news-section-heading a:hover {
   color: black;
 }
 
