@@ -1144,16 +1144,6 @@ ul {
   font-weight: 800;
 }
 
-.news-section-list li span a {
-  position: relative;
-  left: 8px;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 13px;
-  font-weight: 200;
-  color: #aaa;
-  text-decoration: none;
-}
-
 /***
  *    :'######:::'########:::'#######::'##::::'##:'########:::::::::::'########:
  *    '##...###::###....###:'##....###:###::::###:###....###::::::::::###.....::
@@ -1192,11 +1182,6 @@ ul {
 .latest-deals-header h4+h5 {
   padding: 0;
   margin: 0;
-}
-
-.latest-deals-header a {
-  text-decoration: none;
-  color: #f42;
 }
 
 .lastes-deal-article-section {
@@ -1430,4 +1415,14 @@ F O O T E R
 
 .news-section-img-content a:hover {
   border-bottom: 1px solid #555;
+}
+
+.news-section-list li span a {
+  position: relative;
+  left: 8px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 200;
+  color: #aaa;
+  text-decoration: none;
 }
