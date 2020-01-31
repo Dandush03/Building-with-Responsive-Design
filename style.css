@@ -1268,10 +1268,28 @@ F O O T E R
   background-color: #131313;
 }
 
-.footer-fb{
-  background: transparent, url('https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783')
+.social-icon{
+  /* background:transparent, url('https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783'); */
+  background-color: transparent;
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783);
+  background-size: 1296px 1296px;
+  width: 16px;
+  height: 16px;
+  /* background-color: red; */
 }
 
+.footer-fb{
+  background-position: -272px -272px;
+}
+
+.footer-social span{
+  border: white 1px solid;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  display: block;
+  border-radius: 50%;
+}
 
 /***
  *    :::'###:::::'######::'########:'####::'#######::'##:::###::'######::
